@@ -14,24 +14,27 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse navigation_elements" id="navbarTogglerDemo01">
+        <div
+          class="collapse navbar-collapse navigation_elements"
+          id="navbarTogglerDemo01"
+        >
           <a class="navbar-brand" href="#">Rodrigue Ndeme</a>
-            <div class="linklist">
-                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-          <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Work</a>
-            </li>
+          <div class="linklist">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Services</a>
-            </li>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
               <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contact</a>
-            </li>
-          </ul>
-            </div>
+                <a class="nav-link" aria-current="page" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
           <div class="contact-me">Contact Me</div>
         </div>
       </div>
@@ -45,28 +48,30 @@ export default {};
 
 <style scoped>
 .navbar {
-   background-color:#4caf50;
-       padding-top: .2rem; 
-     padding-bottom: .2rem;
+  background-color: #4caf50;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
-.navbar-brand{
-  font-weight: 400;
+.navbar-brand {
+  font-weight: 300;
   size: 16px;
   font-style: normal;
+  font-family: "Space Grotesk", sans-serif;
 }
-.nav-link{
-  font-weight: 500;
-   size: 10px;
+.nav-link {
+  font-weight: 700;
+  size: 16px;
+  font-family: "Karla", sans-serif;
+  line-height: 20px;
 }
-.navigation_elements{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 25px;
- 
+.navigation_elements {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
 }
-.navbar-brand{
-    font-size: 30px;
-    font-weight: bold;
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
 }
 .contact-me {
   cursor: pointer;
@@ -81,6 +86,8 @@ export default {};
   border: 1px solid #fff;
   text-align: center;
   outline: none;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
 }
 
 .contact-me:hover,

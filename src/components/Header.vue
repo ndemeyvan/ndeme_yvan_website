@@ -1,7 +1,6 @@
 <template>
   <div id="header">
     <div class="container">
-      <div class="container">
         <div class="row align-items-center">
           <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
             <div class="person_image">
@@ -14,29 +13,11 @@
                 My name is Ndeme Rodrigue.<br />
                 Mobile / Web Developer
               </h1>
-              <p class="small_description">Natif , Flutter , Vuejs , Reactjs</p>
+              <p class="small_description"> Flutter , Natif , Vuejs , Reactjs</p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="container text-light contact-info">
-        <div class="row">
-          <div class="col-lg-4">
-            <p>Email</p>
-            <span>ndemeyvan@gmail.com</span>
-          </div>
-           <div class="col-lg-4 text-center">
-           <i class="fab fa-github-alt"></i>
-           <i class="fab fa-twitter"></i>
-           <i class="fab fa-linkedin-in"></i>
-          </div>
-          <div class="col-lg-4 text-end">
-            <p>Phone</p>
-            <span>+237 6562090008</span>
-          </div>
-        </div>
-      </div>
+     
     </div>
   </div>
 </template>
@@ -56,12 +37,17 @@ export default {};
 
 .contact-info {
   margin-top: 90px;
+  font-family: "Karla", sans-serif;
 }
 .profession {
   color: white;
   font-weight: 500;
   font-size: 50px;
   font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  font-style: normal;
 }
 .small_description {
   color: black;
@@ -74,16 +60,17 @@ span {
   font-size: 26px;
 }
 
-p{
-   font-weight: 400;
+p {
+  font-weight: 400;
   font-size: 20px;
 }
-i{
-  font-size: 45px;
-  margin: 35px;
+i {
+  font-size: 40px;
+  margin: 20px;
   cursor: pointer;
 }
-i:hover,hover:active {
+i:hover,
+hover:active {
   color: #fff;
   color: #000;
   transition: color 0.3s ease-in, color 0.3s ease-in;
