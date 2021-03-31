@@ -7,15 +7,15 @@
 
     <div class="container list_companies text-center">
       <div class="row">
-        <div class="col-md-4 logo">
-          <img src="../assets/img/kiroo_logo.png" />
+        <div class="col-md-4">
+          <img src="../assets/img/kiroo_logo.png" class="logo" />
         </div>
-        <div class="col-md-4  logo">
-          <img src="../assets/img/seven_logo.png" />
+        <div class="col-md-4 logo">
+          <img src="../assets/img/seven_logo.png" class="logo" />
         </div>
 
         <div class="col-md-4 logo">
-          <img src="../assets/img/floraion_logo.jpg" />
+          <img src="../assets/img/floraion_logo.jpg" class="logo" />
         </div>
       </div>
     </div>
@@ -44,12 +44,17 @@ export default {
   color: #130f49;
   font-size: 64px;
   font-style: normal;
+   font-family: 'Space Grotesk', sans-serif;
 }
 
 .list_companies {
   margin-top: 80px;
 }
-.logo{
-    cursor: pointer;
+img {
+  cursor: pointer;
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  max-width: 150px;
 }
 </style>

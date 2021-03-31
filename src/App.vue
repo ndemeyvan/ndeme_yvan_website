@@ -4,6 +4,8 @@
   <MonExpertise/>
   <MyWorks/>
   <Compagnie/>
+    <AboutMe/>
+
 </template>
 
 <script>
@@ -12,6 +14,7 @@ import NavBar from '../src/components/NavBar'
 import MonExpertise from '../src/components/MonExpertise'
 import MyWorks from '../src/components/MyWorks'
 import Compagnie from '../src/components/Compagnie'
+import AboutMe from '../src/components/AboutMe'
 
 export default {
   name: 'App',
@@ -20,7 +23,8 @@ export default {
     NavBar,
     MonExpertise,
     MyWorks,
-    Compagnie
+    Compagnie,
+    AboutMe
   }
 }
 </script>

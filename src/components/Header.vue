@@ -4,7 +4,7 @@
         <div class="row align-items-center">
           <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
             <div class="person_image">
-              <!-- <img src="../assets/img/ndeme_yvan.jpg" alt="" /> -->
+              <img src="../assets/img/ndeme_yvan.jpg" alt="" />
             </div>
           </div>
           <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
@@ -74,5 +74,9 @@ hover:active {
   color: #fff;
   color: #000;
   transition: color 0.3s ease-in, color 0.3s ease-in;
+}
+img{
+  max-height: 300px;
+  
 }
 </style>

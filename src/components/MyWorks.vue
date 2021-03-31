@@ -112,6 +112,7 @@ export default {
   color: #130f49;
   font-size: 64px;
   font-style: normal;
+   font-family: 'Space Grotesk', sans-serif;
 }
 
 .list_works {
