@@ -45,7 +45,7 @@ export default {};
 
 <style scoped>
 .navbar {
-   background-color:#ff8b5b;
+   background-color:#4caf50;
        padding-top: .2rem; 
      padding-bottom: .2rem;
 }
@@ -77,13 +77,11 @@ export default {};
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 5px;
   border: 1px solid #fff;
   text-align: center;
   outline: none;
 }
-
-
 
 .contact-me:hover,
 .contact-me:active {
