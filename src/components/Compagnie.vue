@@ -1,0 +1,55 @@
+<template>
+  <div id="compagnie">
+    <div class="title text-center">
+      <p class="litle_title">MY COMPANIES</p>
+      <h1 class="big_title">My Companies</h1>
+    </div>
+
+    <div class="container list_companies text-center">
+      <div class="row">
+        <div class="col-md-4 logo">
+          <img src="../assets/img/kiroo_logo.png" />
+        </div>
+        <div class="col-md-4  logo">
+          <img src="../assets/img/seven_logo.png" />
+        </div>
+
+        <div class="col-md-4 logo">
+          <img src="../assets/img/floraion_logo.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  setup() {},
+};
+</script>
+
+<style scoped>
+#compagnie {
+  min-height: 500px;
+}
+.title {
+  margin-top: 70px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  color: #b4b2c5;
+}
+.big_title {
+  font-weight: 700;
+  color: #130f49;
+  font-size: 64px;
+  font-style: normal;
+}
+
+.list_companies {
+  margin-top: 80px;
+}
+.logo{
+    cursor: pointer;
+}
+</style>
