@@ -5,6 +5,7 @@
   <MyWorks/>
   <Compagnie/>
     <AboutMe/>
+    <Footer/>
 
 </template>
 
@@ -15,6 +16,8 @@ import MonExpertise from '../src/components/MonExpertise'
 import MyWorks from '../src/components/MyWorks'
 import Compagnie from '../src/components/Compagnie'
 import AboutMe from '../src/components/AboutMe'
+import Footer from '../src/components/Footer'
+
 
 export default {
   name: 'App',
@@ -24,7 +27,9 @@ export default {
     MonExpertise,
     MyWorks,
     Compagnie,
-    AboutMe
+    AboutMe,
+        Footer
+
   }
 }
 </script>

@@ -36,7 +36,6 @@ export default {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  line-height: 20px;
   color: #b4b2c5;
 }
 .big_title {
@@ -52,9 +51,8 @@ export default {
 }
 img {
   cursor: pointer;
-  min-height: 150px;
-  min-width: 150px;
-  max-height: 150px;
-  max-width: 150px;
+
+  max-height: 100px;
+  max-width: 100px;
 }
 </style>

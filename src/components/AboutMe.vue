@@ -29,6 +29,7 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -39,7 +40,7 @@ export default {};
 <style scoped>
 #about {
   background-color: #4caf50;
-  display: flex;
+  /* min-height: 890px; */
   justify-content: center;
   align-items: center;
   padding: 132px 12%;
@@ -55,13 +56,13 @@ export default {};
 .description {
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  line-height: 20px;
   color: white;
+  font-size:30px;
 }
 .big_title {
   font-weight: 700;
   color: #130f49;
-  font-size: 40px;
+  font-size: 70px;
   font-style: normal;
   font-family: "Space Grotesk", sans-serif;
 }
@@ -86,12 +87,22 @@ export default {};
   line-height: 0px;
   color: #130f49;
 }
-.author_wrap{
+.author_wrap {
   display: flex;
-      display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.author_image{
+.author_image {
   margin-right: 30px;
+}
+.social {
+  font-size: 50px;
+  margin: 0px 20px;
+}
+.social_network {
+  justify-content: space-between;
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 77px;
 }
 </style>
