@@ -23,12 +23,16 @@
 </template>
 
 <script>
-export default {};
+
+export default {
+   components: {
+  }
+};
 </script>
 
 <style scoped>
 #header {
-  min-height: 860px;
+  min-height: 956px;
   background-color: #4caf50;
   display: flex;
   justify-content: center;

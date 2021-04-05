@@ -12,11 +12,8 @@
             <div class="card card-blog">
               <div class="card-image">
                 <a href="#">
-                  <img
-                    class="img"
-                    src="https://i.pinimg.com/236x/a8/55/0d/a8550d90d6c79b22800a346c3a4d01af.jpg"
-                  />
-                  <div class="card-caption">Quisque a bibendum magna</div>
+                  <img class="img" src="../assets/img/efram_home.jpg" />
+                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
                 </a>
                 <div class="ripple-cont"></div>
               </div>
@@ -32,20 +29,18 @@
               </div>
             </div>
           </div>
-                <div class="col-md-4">
+
+          <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-image">
                 <a href="#">
-                  <img
-                    class="img"
-                    src="https://i.pinimg.com/236x/a8/55/0d/a8550d90d6c79b22800a346c3a4d01af.jpg"
-                  />
-                  <div class="card-caption">Quisque a bibendum magna</div>
+                  <img class="img" src="../assets/img/portfolioApp.jpg" />
+                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
                 </a>
                 <div class="ripple-cont"></div>
               </div>
               <div class="table">
-                <h6 class="category text-info">Cinema</h6>
+                <h6 class="category text-info">E-Farm</h6>
                 <p class="card-description">
                   Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
                   lacinia elit et placerat finibus. Praesent justo metus,
@@ -56,20 +51,17 @@
               </div>
             </div>
           </div>
-                <div class="col-md-4">
+          <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-image">
                 <a href="#">
-                  <img
-                    class="img"
-                    src="https://i.pinimg.com/236x/a8/55/0d/a8550d90d6c79b22800a346c3a4d01af.jpg"
-                  />
-                  <div class="card-caption">Quisque a bibendum magna</div>
+                  <img class="img" src="../assets/img/b_commerce_home.jpg" />
+                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
                 </a>
                 <div class="ripple-cont"></div>
               </div>
               <div class="table">
-                <h6 class="category text-info">Cinema</h6>
+                <h6 class="category text-info">B commerce</h6>
                 <p class="card-description">
                   Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
                   lacinia elit et placerat finibus. Praesent justo metus,
@@ -77,14 +69,75 @@
                   odio antement, feugiat eget nisi sit amet, scelerisque
                   dignissim velit antement.
                 </p>
-                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-image">
+                <a href="#">
+                  <img class="img" src="../assets/img/login_ui.jpg" />
+                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
+                </a>
+                <div class="ripple-cont"></div>
+              </div>
+              <div class="table">
+                <h6 class="category text-info">B commerce</h6>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
+                  lacinia elit et placerat finibus. Praesent justo metus,
+                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
+                  odio antement, feugiat eget nisi sit amet, scelerisque
+                  dignissim velit antement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-image">
+                <a href="#">
+                  <img class="img" src="../assets/img/activa_showroom.png" />
+                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
+                </a>
+                <div class="ripple-cont"></div>
+              </div>
+              <div class="table">
+                <h6 class="category text-info">B commerce</h6>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
+                  lacinia elit et placerat finibus. Praesent justo metus,
+                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
+                  odio antement, feugiat eget nisi sit amet, scelerisque
+                  dignissim velit antement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-image">
+                <a href="#">
+                  <img class="img" src="../assets/img/b_commerce_home.jpg" />
+                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
+                </a>
+                <div class="ripple-cont"></div>
+              </div>
+              <div class="table">
+                <h6 class="category text-info">Eneo mobile application</h6>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
+                  lacinia elit et placerat finibus. Praesent justo metus,
+                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
+                  odio antement, feugiat eget nisi sit amet, scelerisque
+                  dignissim velit antement.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -112,7 +165,7 @@ export default {
   color: #130f49;
   font-size: 64px;
   font-style: normal;
-   font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .list_works {
@@ -223,8 +276,6 @@ a:hover {
 p {
   color: #3c4857;
 }
-
-
 
 h1,
 .h1 {

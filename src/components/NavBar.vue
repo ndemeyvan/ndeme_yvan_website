@@ -1,7 +1,7 @@
 <template>
-  <div class="navigation_bar">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
+  <div class="navigation_bar ">
+    <nav class="navbar navbar-expand-lg navbar-dark position-sticky fixed-top">
+      <div class="container-fluid fixed-top navigation_bar">
         <button
           class="navbar-toggler"
           type="button"
@@ -51,6 +51,15 @@ export default {};
   background-color: #4caf50;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
+  
+}
+.navigation_bar{
+    background-color: #4caf50;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  position:fixed;
+      z-index: 3;
+
 }
 .navbar-brand {
   font-weight: 300;
