@@ -1,8 +1,8 @@
 <template>
   <div id="expertise">
     <div class="title text-center">
-      <p class="litle_title">MY SKILLS</p>
-      <h1 class="big_title">My Expertise</h1>
+      <p class="litle_title">MES COMPÉTENCES</p>
+      <h1 class="big_title">Mes Competences</h1>
     </div>
     <div class="container list_skylls">
       <div class="row">
@@ -11,13 +11,14 @@
           <div>
             <div class="card_header">
               <i class="fas fa-mobile logo_image_flutter"></i>
-              <span>Flutter Developer</span>
+              <span>Développeur Flutter</span>
             </div>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              explicabo id quisquam omnis minima tenetur, facilis iste ratione,
-              possimus sint recusandae vitae totam? Fuga, ab recusandae
-              temporibus dolore fugit ipsum!
+            <p class="mt-3 skill_description">
+              J'ai une bonne connaissance du framework mobile Flutter, très
+              facile à comprendre et à utiliser, le langage Dart n'était pas un
+              problème pour moi car j'ai une expérience du développement
+              d'applications natives avec java. Depuis lors, j'utilise Flutter
+              pour la plupart de mes projets d'application.
             </p>
           </div>
         </div>
@@ -26,13 +27,13 @@
           <div>
             <div class="card_header">
               <i class="fab fa-android logo_image_vuejs"></i>
-              <span>Android Mobile developer</span>
+              <span>Développeur Android Mobile</span>
             </div>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              explicabo id quisquam omnis minima tenetur, facilis iste ratione,
-              possimus sint recusandae vitae totam? Fuga, ab recusandae
-              temporibus dolore fugit ipsum!
+            <p class="mt-3 skill_description">
+              J'ai toujours été curieux de comprendre le fonctionnement des
+              applications les plus populaires, c'est ainsi que j'ai commencé à
+              développer des applications mobiles natives d'abord avec Java et
+              Kotlin aujourd'hui.
             </p>
           </div>
         </div>
@@ -43,7 +44,7 @@
               <i class="fab fa-vuejs logo_image_vuejs"></i>
               <span>Web developer With Vuejs</span>
             </div>
-            <p class="mt-3">
+            <p class="mt-3 skill_description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
               explicabo id quisquam omnis minima tenetur, facilis iste ratione,
               possimus sint recusandae vitae totam? Fuga, ab recusandae
@@ -58,7 +59,7 @@
               <i class="fab fa-node logo_image_vuejs"></i>
               <span>Web developer With Express</span>
             </div>
-            <p class="mt-3">
+            <p class="mt-3 skill_description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
               explicabo id quisquam omnis minima tenetur, facilis iste ratione,
               possimus sint recusandae vitae totam? Fuga, ab recusandae
@@ -72,15 +73,9 @@
 </template>
 
 <script>
-
 export default {
- 
- 
   data() {
-    return {
-
-
-    };
+    return {};
   },
 };
 </script>
@@ -89,7 +84,7 @@ export default {
 #expertise {
   min-height: 500px;
 }
-.title {
+.litle_title {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -100,7 +95,7 @@ export default {
   color: #130f49;
   font-size: 64px;
   font-style: normal;
-   font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 .list_skylls {
   margin-top: 80px;
@@ -143,5 +138,10 @@ span {
   font-family: "Karla", sans-serif;
   font-size: 26px;
 }
-
+.skill_description {
+  margin-top: 70px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #b4b2c5;
+}
 </style>
