@@ -13,7 +13,7 @@
                Moi c'est Ndeme Rodrigue.<br />
                 Mobile / Web Développeur
               </h1>
-              <p class="small_description">Développeur Android (Flutter / Natif) / Web (Vuejs / Reactjs)</p>
+              <p class="small_description">Développeur Android (Flutter / Natif) / Web (Vuejs)</p>
             </div>
           </div>
         </div>
