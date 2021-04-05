@@ -18,14 +18,28 @@
                 <div class="ripple-cont"></div>
               </div>
               <div class="table">
-                <h6 class="category text-info">Cinema</h6>
+                <h6 class="category text-info">Application mobile E-Farm</h6>
                 <p class="card-description">
-                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
-                  lacinia elit et placerat finibus. Praesent justo metus,
-                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
-                  odio antement, feugiat eget nisi sit amet, scelerisque
-                  dignissim velit antement.
+                  L'application efarm est une application développée avec le
+                  Framework Flutter. <br />
+                  Elle vise à mettre en relation les agriculteurs et les
+                  acheteurs de produits alimentaires. acheteurs de produits
+                  alimentaires. <br /> Ce projet était vraiment un défi pour moi en raison du
+                  délai de livraison qui m'était imposé, Je devais aller plus
+                  vite et faire du bon travail en même temps, comme faire plus
+                  de 15 écrans en 1 jour en 1 jour, intégrer rapidement les API
+                  et faire attention à la permormance des appareils et à
+                  l'expérience utilisateur J'ai beaucoup appris sur Flutter. Une
+                  version sera bientôt disponible sur le playstore.
                 </p>
+
+                <a
+                  href="http://"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="git_repo"
+                  >REPOSITORY GIT</a
+                >
               </div>
             </div>
           </div>
@@ -320,5 +334,32 @@ h6,
 .h6 {
   font-size: 0.9em;
   font-weight: 500;
+}
+.info-text {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #b4b2c5;
+}
+.card-description {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #b4b2c5;
+}
+.text-info {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #b4b2c5;
+}
+.git_repo {
+  text-decoration: none;
+  color: #b4b2c5;
+  font-family: "Karla", sans-serif;
+}
+.git_repo:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  color: #b4b2c5;
+  font-family: "Karla", sans-serif;
 }
 </style>

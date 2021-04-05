@@ -35,7 +35,7 @@
               </li>
             </ul>
           </div>
-          <a  class="contact-me" href="mailto:ndemeyvan@gmail.com">Contact Me</a>
+          <a  class="contact-me" href="mailto:ndemeyvan@gmail.com">DOWNLOAD CV</a>
          
         </div>
       </div>
@@ -92,7 +92,7 @@ export default {};
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 30px;
   border: 1px solid #fff;
   text-align: center;
   outline: none;

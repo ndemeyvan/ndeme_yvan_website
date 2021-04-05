@@ -1,7 +1,7 @@
 <template>
   <div id="about">
     <div class="aboutMe text-start">
-      <p class="litle_title">NICE TO MEET YOU</p>
+      <p class="litle_title">ENCHANTÉ DE VOUS RENCONTRER</p>
       <h1 class="big_title">
         Hey , moi c'est Ndeme Yvan. <br />
         Mobile et Web Développeur
