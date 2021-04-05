@@ -4,7 +4,7 @@
       <p class="litle_title">MES TRAVAUX</p>
       <h1 class="big_title">Mes travaux</h1>
     </div>
-
+<slide :data="slide" />
 
     <!-- <div class="cards-1 section-gray">
       <div class="container">
@@ -152,10 +152,15 @@
 </template>
 
 <script>
+import slide from '@wyhaya/vue-slide'
+
 export default {
   data() {
-    return {};
+    return {
+            slide: ['1.jpg', '2.jpg', '3.jpg']
+        }
   },
+   components: { slide }
 };
 </script>
 

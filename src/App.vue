@@ -1,42 +1,28 @@
 <template>
-  <NavBar/>
-  <Hearder/>
-  <MonExpertise/>
-  <MyWorks/>
-  <!-- <Compagnie/> -->
-    <AboutMe/>
-    <Footer/>
-
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-import Hearder from '../src/components/Header'
-import NavBar from '../src/components/NavBar'
-import MonExpertise from '../src/components/MonExpertise'
-import MyWorks from '../src/components/MyWorks'
-// import Compagnie from '../src/components/Compagnie'
-import AboutMe from '../src/components/AboutMe'
-import Footer from '../src/components/Footer'
-
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    Hearder,
-    NavBar,
-    MonExpertise,
-    MyWorks,
-    // Compagnie,
-    AboutMe,
-        Footer
-
+    HelloWorld
   }
 }
 </script>
 
 <style>
-/* body{
-/* font-family: 'Space Grotesk', sans-serif; */
-/* font-family: 'Karla', sans-serif; 
-} */
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
