@@ -13,7 +13,7 @@
                 My name is Ndeme Rodrigue.<br />
                 Mobile / Web Developer
               </h1>
-              <p class="small_description"> Flutter , Natif , Vuejs , Reactjs</p>
+              <p class="small_description">Développeur Android (Flutter / Natif) / Web (Vuejs / Reactjs)</p>
             </div>
           </div>
         </div>

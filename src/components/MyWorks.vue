@@ -55,7 +55,7 @@
             <div class="card card-blog">
               <div class="card-image">
                 <a href="#">
-                  <img class="img" src="../assets/img/b_commerce_home.jpg" />
+                  <img class="img" src="../assets/img/login_ui.jpg" />
                   <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
                 </a>
                 <div class="ripple-cont"></div>
@@ -76,7 +76,7 @@
             <div class="card card-blog">
               <div class="card-image">
                 <a href="#">
-                  <img class="img" src="../assets/img/login_ui.jpg" />
+                  <img class="img" src="../assets/img/b_commerce_home.jpg" />
                   <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
                 </a>
                 <div class="ripple-cont"></div>
@@ -93,6 +93,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="card card-blog">
               <div class="card-image">

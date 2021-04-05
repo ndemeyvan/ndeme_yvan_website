@@ -35,7 +35,8 @@
               </li>
             </ul>
           </div>
-          <div class="contact-me">Contact Me</div>
+          <a  class="contact-me" href="mailto:ndemeyvan@gmail.com">Contact Me</a>
+         
         </div>
       </div>
     </nav>

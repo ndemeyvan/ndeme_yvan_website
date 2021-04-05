@@ -10,7 +10,10 @@
             </div>
             <div class="email_me">
               <p class="person_post text-light">Email me at</p>
-              <p class="person_email text-light"> <i class="far fa-envelope-open icon envelope mr-2"></i> ndemeyvan@gmail.com</p>
+              <p class="person_email text-light">
+                <i class="far fa-envelope-open icon envelope mr-2"></i>
+                ndemeyvan@gmail.com
+              </p>
             </div>
           </div>
         </div>
@@ -22,18 +25,45 @@
               presence or help with your UX/UI design challenges.
             </p>
             <div class="">
-                <div class="social_icons ">
-              <i class="fab fa-linkedin-in icon"></i>
-              <i class="fab fa-facebook-messenger icon"></i>
-              <i class="fab fa-github icon"></i>
-              <i class="fab fa-twitter icon"></i>
-            </div>
+              <div class="social_icons">
+                <a
+                  href="https://www.linkedin.com/in/ndeme-yvan-127a981a7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin-in icon"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/yvan10ndeme"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-facebook-messenger icon"></i
+                ></a>
+                <a
+                  href="https://github.com/ndemeyvan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github icon"></i
+                ></a>
+                <a
+                  href="https://twitter.com/ndemeYvan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-twitter icon"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
 
-        <hr class="my-5">
-        <p class="all_right_reserved text-center text-light">&copy; All Rights Reserved {{date}} . Made with ❤️ by Ndeme Yvan Rodrigue</p>
+        <hr class="my-5" />
+        <p class="all_right_reserved text-center text-light">
+          &copy; All Rights Reserved {{ date }} . Made with ❤️ by Ndeme Yvan
+          Rodrigue
+        </p>
       </div>
     </div>
   </div>
@@ -41,19 +71,18 @@
 
 <script>
 export default {
-
-    data() {
-        return {
-            date: new Date().getFullYear(),
-        }
-    },
+  data() {
+    return {
+      date: new Date().getFullYear(),
+    };
+  },
 };
 </script>
 
 <style scoped>
 #footer {
   background-color: #0f1221;
-  padding:104px 15%;
+  padding: 104px 15%;
 }
 
 .author_wrap {
@@ -105,10 +134,10 @@ export default {
 }
 .icon:hover,
 .icon:active {
-color:#4caf50;
+  color: #4caf50;
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
-.envelope{
-    margin-right: 10px;
+.envelope {
+  margin-right: 10px;
 }
 </style>
