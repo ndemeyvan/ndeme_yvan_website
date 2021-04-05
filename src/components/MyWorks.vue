@@ -4,7 +4,30 @@
       <p class="litle_title">MES TRAVAUX</p>
       <h1 class="big_title">Mes travaux</h1>
     </div>
-    <slide :data="slide" class="slider d-flex align-item-center"/>
+
+    <div class="container workItems">
+      <div class="row">
+        <div class="col-md-4 itemWork">
+          <img
+            src="../assets/img/efarm_login.jpg"
+            class="cover"
+           
+          />
+        </div>
+        <div class="col-md-4 itemWork mx-2">
+          <img
+            src="../assets/img/portfolioApp.jpg"
+            class="cover"
+           
+          />
+        </div>
+        <div class="col-md-4 itemWork">
+          <img
+            src="../assets/img/login_ui.jpg"
+            class="cover" />
+        </div>
+      </div>
+    </div>
 
     <!-- <div class="cards-1 section-gray">
       <div class="container">
@@ -152,19 +175,11 @@
 </template>
 
 <script>
-import slide from "@wyhaya/vue-slide";
-
 export default {
   data() {
-    return {
-      slide: [
-        "https://i.pinimg.com/236x/1c/c2/e0/1cc2e015fb26dc2fdb9e285bcb01e157.jpg",
-        "https://i.pinimg.com/236x/1c/c2/e0/1cc2e015fb26dc2fdb9e285bcb01e157.jpg",
-        "https://i.pinimg.com/236x/1c/c2/e0/1cc2e015fb26dc2fdb9e285bcb01e157.jpg",
-      ],
-    };
+    return {};
   },
-  components: { slide },
+  components: {},
 };
 </script>
 
@@ -191,78 +206,6 @@ export default {
   margin-top: 80px;
 }
 
-/* test */
-
-.section-gray {
-  background: white;
-  padding: 60px 0 30px 0;
-}
-
-/*---------------------------------------------------------------------- /
-CARDS
------------------------------------------------------------------------ */
-
-.card {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  margin-bottom: 30px;
-  border-radius: 6px;
-  color: rgba(0, 0, 0, 0.87);
-  background: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-
-.card .card-image {
-  height: 60%;
-  position: relative;
-  overflow: hidden;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: -30px;
-  border-radius: 6px;
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
-    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.card .card-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 6px;
-  pointer-events: none;
-}
-
-.card .card-image .card-caption {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: #fff;
-  font-size: 1.3em;
-  text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-}
-
-.img-raised {
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
-    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.table {
-  margin-bottom: 0px;
-}
-
-.card .table {
-  padding: 15px 30px;
-}
-
-.card-blog {
-  margin-top: 30px;
-}
 
 /* ======= GENERAL  ======= */
 
@@ -282,15 +225,6 @@ h6,
   line-height: 1.5em;
 }
 
-a {
-  color: #9c27b0;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #9c27b0;
-  text-decoration: underline;
-}
 
 p {
   color: #3c4857;
@@ -366,8 +300,26 @@ h6,
   color: #b4b2c5;
   font-family: "Karla", sans-serif;
 }
-.slider{
-  height: 500px;
-  width:500px;
+
+/* news */
+.itemWork {
+  height: 400px;
+  width: 400px;
+  /* background-color: red; */
+  transition: all 0.2s ease-in-out;
+}
+.itemWork:hover {
+  transform: scale(1.1);
+}
+
+.workItems {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cover {
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+  cursor: pointer
 }
 </style>
