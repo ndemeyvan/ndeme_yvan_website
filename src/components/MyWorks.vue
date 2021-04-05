@@ -4,7 +4,7 @@
       <p class="litle_title">MES TRAVAUX</p>
       <h1 class="big_title">Mes travaux</h1>
     </div>
-<slide :data="slide" />
+    <slide :data="slide" class="slider d-flex align-item-center"/>
 
     <!-- <div class="cards-1 section-gray">
       <div class="container">
@@ -152,15 +152,19 @@
 </template>
 
 <script>
-import slide from '@wyhaya/vue-slide'
+import slide from "@wyhaya/vue-slide";
 
 export default {
   data() {
     return {
-            slide: ['1.jpg', '2.jpg', '3.jpg']
-        }
+      slide: [
+        "https://i.pinimg.com/236x/1c/c2/e0/1cc2e015fb26dc2fdb9e285bcb01e157.jpg",
+        "https://i.pinimg.com/236x/1c/c2/e0/1cc2e015fb26dc2fdb9e285bcb01e157.jpg",
+        "https://i.pinimg.com/236x/1c/c2/e0/1cc2e015fb26dc2fdb9e285bcb01e157.jpg",
+      ],
+    };
   },
-   components: { slide }
+  components: { slide },
 };
 </script>
 
@@ -361,5 +365,9 @@ h6,
   font-weight: 700;
   color: #b4b2c5;
   font-family: "Karla", sans-serif;
+}
+.slider{
+  height: 500px;
+  width:500px;
 }
 </style>
