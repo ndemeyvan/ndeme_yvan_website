@@ -14,7 +14,7 @@
            
           />
         </div>
-        <div class="col-md-4 itemWork mx-2">
+        <div class="col-md-4 itemWork">
           <img
             src="../assets/img/portfolioApp.jpg"
             class="cover"
@@ -303,8 +303,8 @@ h6,
 
 /* news */
 .itemWork {
-  height: 400px;
-  width: 400px;
+  min-height: 761px;
+  
   /* background-color: red; */
   transition: all 0.2s ease-in-out;
 }
