@@ -42,13 +42,14 @@
           <div>
             <div class="card_header">
               <i class="fab fa-vuejs logo_image_vuejs"></i>
-              <span>Web developer With Vuejs</span>
+              <span>Développeur Web avec Vuejs</span>
             </div>
             <p class="mt-3 skill_description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              explicabo id quisquam omnis minima tenetur, facilis iste ratione,
-              possimus sint recusandae vitae totam? Fuga, ab recusandae
-              temporibus dolore fugit ipsum!
+              Lorsque j'ai voulu m'essayer au web avec mes connaissances de base
+              en javascript, après avoir testé les différents frameworks
+              disponibles sur le marché, le choix le plus évident a été vuejs,
+              simple, propre, compréhensible et robuste, c'est un plaisir de
+              travailler avec.
             </p>
           </div>
         </div>
@@ -57,13 +58,38 @@
           <div>
             <div class="card_header">
               <i class="fab fa-node logo_image_vuejs"></i>
-              <span>Web developer With Express</span>
+              <span>Express / SpringBoot </span>
             </div>
             <p class="mt-3 skill_description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-              explicabo id quisquam omnis minima tenetur, facilis iste ratione,
-              possimus sint recusandae vitae totam? Fuga, ab recusandae
-              temporibus dolore fugit ipsum!
+              De temps en temps, sur des projets, il arrive que l'on ait besoin
+              de mettre en place rapidement un serveur avec MongoDb/MySql comme
+              base de données sans trop de prise de tête. Express et SpringBoot
+              sont des FrameWorks adaptés à ce genre de choses, faciles à mettre
+              en place sans avoir de grandes connaissances, il est facile de
+              faire des choses intéressantes.
+            </p>
+          </div>
+        </div>
+        <!-- Youtube -->
+        <div class="col-lg-6 list_item">
+          <div>
+            <div class="card_header">
+              <i class="fab fa-youtube logo_image_youtube"></i>
+              <span>Youtubeur</span>
+            </div>
+            <p class="mt-3 skill_description">
+              Depuis quelques mois, quand j'ai un peu de temps libre, je crée du
+              contenu sur ma chaîne  <a
+          href="https://www.youtube.com/channel/UCsEsYHr8O0jKpskPTEEqWow"
+          class="youtube_link"
+          target="_blank"
+        >
+          youtube <i class="fa fa-youtube-play"></i
+        ></a> plus orienté vers le codage
+              d'applications mobiles avec le Framework Flutter, c'est vraiment
+              un plaisir pour moi de partager ce que j'apprends avec les autres,
+              même si je suis très occupé, je trouve toujours le temps de
+              publier une vidéo de temps en temps
             </p>
           </div>
         </div>
@@ -110,6 +136,11 @@ export default {
   margin: 0px 20px;
   color: #61dbfb;
 }
+.logo_image_youtube {
+  font-size: 50px;
+  margin: 0px 20px;
+  color: #ff0000;
+}
 .logo_image_flutter {
   font-size: 50px;
   margin: 0px 20px;
@@ -123,11 +154,7 @@ export default {
   -webkit-transition: box-shadow 500ms ease;
   transition: box-shadow 500ms ease;
 }
-.list_item:hover {
-  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
-    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
-    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07); */
-}
+
 .card_header {
   display: flex;
   justify-content: start;
@@ -143,5 +170,10 @@ span {
   font-family: "Karla", sans-serif;
   font-weight: 700;
   color: #b4b2c5;
+}
+.youtube_link {
+  text-decoration: none;
+  color: #ff0000;
+  cursor: pointer;
 }
 </style>

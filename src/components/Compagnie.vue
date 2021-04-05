@@ -24,15 +24,7 @@
       <p class="work_description">
         Voici quelques-unes des entreprises pour lesquelles j'ai travaillé, de
         Floraison à Kiro'o games, j'ai pu apprendre des autres et acquérir une expérience
-        expérience que je partage avec d'autres sur ma chaîne
-        <a
-          href="https://www.youtube.com/channel/UCsEsYHr8O0jKpskPTEEqWow"
-          class="youtube_link"
-          target="_blank"
-        >
-          youtube <i class="fa fa-youtube-play"></i
-        ></a>
-        lorsque j'ai un peu de temps libre.
+        expérience que je partage avec les autres .
       </p>
     </div>
   </div>
@@ -77,9 +69,5 @@ img {
   font-weight: 700;
   color: #b4b2c5;
 }
-.youtube_link {
-  text-decoration: none;
-  color: #ff0000;
-  cursor: pointer;
-}
+
 </style>

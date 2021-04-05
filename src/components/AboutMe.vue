@@ -11,7 +11,7 @@
         depuis 3 ans. J'ai fait mes premières pas dans la création d'application
         mobile en natif (java) en 2018 . <br> Le code est une véritable passion pour
         moi. J'ai commencé à m'y intéresse très tot déjà au lycée et je suis
-        ravi de vivre de ma passion aujourd'hui.<br> C'est ainsi que je me propose
+        ravi de vivre de ma passion aujourd'hui. <br><br> C'est ainsi que je me propose
         de mettre certaines de mes compétences et expériences à votre service,
         compétences qui sont :<br> - Développement mobile Cross platform avec Flutter :
         je conçois des applications cross Platform ( qui tourneront sur Android

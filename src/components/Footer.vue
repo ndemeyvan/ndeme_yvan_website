@@ -6,10 +6,10 @@
           <div class="author_wrap right_side">
             <div class="author_name">
               <p class="person_name text-light">Ndeme Yvan</p>
-              <p class="person_post text-light">Mobile and Web Développeur</p>
+              <p class="person_post text-light">Développeur mobile et Web</p>
             </div>
             <div class="email_me">
-              <p class="person_post text-light">Email me at</p>
+              <p class="person_post text-light">Envoyez-moi un courriel à : </p>
               <p class="person_email text-light">
                 <i class="far fa-envelope-open icon envelope mr-2"></i>
                 ndemeyvan@gmail.com
