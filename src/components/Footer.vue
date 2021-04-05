@@ -6,7 +6,7 @@
           <div class="author_wrap right_side">
             <div class="author_name">
               <p class="person_name text-light">Ndeme Yvan</p>
-              <p class="person_post text-light">Mobile and Web Developer</p>
+              <p class="person_post text-light">Mobile and Web Développeur</p>
             </div>
             <div class="email_me">
               <p class="person_post text-light">Email me at</p>
@@ -21,8 +21,9 @@
           <div class="left_side">
             <h1 class="text-light big_text">Lets Talk!</h1>
             <p class="text-light desciption">
-              I am always open to discuss your project, improve your online
-              presence or help with your UX/UI design challenges.
+              Je suis toujours prêt à discuter de votre projet, à améliorer
+              votre présence en ligne ou à vous aider à relever vos défis en
+              matière de conception UX/UI.
             </p>
             <div class="">
               <div class="social_icons">

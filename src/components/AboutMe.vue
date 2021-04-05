@@ -3,17 +3,26 @@
     <div class="aboutMe text-start">
       <p class="litle_title">NICE TO MEET YOU</p>
       <h1 class="big_title">
-        Hey , I'm Ndeme Yvan. <br />
-        Mobile and Web Developer
+        Hey , moi c'est Ndeme Yvan. <br />
+        Mobile et Web Développeur
       </h1>
       <p class="description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut asperiores
-        aliquam ipsa exercitationem distinctio! Ullam, deserunt eveniet quod
-        exercitationem qui soluta nihil vel modi esse a aliquam! Totam, illum
-        aut! Magnam iusto, tenetur exercitationem hic sequi minima temporibus
-        recusandae adipisci dolores expedita veniam eos sunt explicabo nihil
-        molestiae nostrum labore quis? Eveniet perspiciatis, iusto enim
-        consequatur sint possimus! Similique, libero!
+        Je m'appelle Ndeme Yvan Rodrigue, je suis un développeur web et mobile
+        depuis 3 ans. J'ai fait mes premières pas dans la création d'application
+        mobile en natif (java) en 2018 . <br> Le code est une véritable passion pour
+        moi. J'ai commencé à m'y intéresse très tot déjà au lycée et je suis
+        ravi de vivre de ma passion aujourd'hui.<br> C'est ainsi que je me propose
+        de mettre certaines de mes compétences et expériences à votre service,
+        compétences qui sont :<br> - Développement mobile Cross platform avec Flutter :
+        je conçois des applications cross Platform ( qui tourneront sur Android
+        et Ios) grace a framework flutter et le langage Dart .<br> - Développement
+        mobile Android natif : je me propose de vous faires applications android
+        code nativement pour l'OS mobile android grace au langage java ou Kotlin .
+        <br> - Développement web Front-end : je m’adapte facilement aux environnements
+        des projets, aux méthodologies adoptées, aux technos utilisées , je travaille
+        avec Vuejs la plupart du temps.
+        <br>
+   
       </p>
       <div class="author_wrap">
         <div class="author_image">
@@ -25,11 +34,10 @@
         </div>
         <div class="author_name">
           <p class="person_name">Ndeme Yvan</p>
-          <p class="person_post">Mobile and Web Developer</p>
+          <p class="person_post">Mobile et Web Développeur</p>
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -57,7 +65,7 @@ export default {};
   font-family: "Karla", sans-serif;
   font-weight: 700;
   color: white;
-  font-size:30px;
+  font-size: 30px;
 }
 .big_title {
   font-weight: 700;

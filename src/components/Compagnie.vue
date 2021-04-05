@@ -1,12 +1,11 @@
 <template>
   <div id="compagnie">
     <div class="title text-center">
-      <p class="litle_title">MY COMPANIES</p>
-      <h1 class="big_title">My Companies</h1>
+      <p class="litle_title">MES ENTREPRISES</p>
+      <h1 class="big_title">Mes  Entreprises</h1>
     </div>
 
     <div class="container list_companies text-center">
-     
       <div class="row">
         <div class="col-md-4">
           <img src="../assets/img/kiroo_logo.png" class="logo" />
@@ -22,10 +21,18 @@
           <p class="mt-3 litle_title">Floraison</p>
         </div>
       </div>
-       <p class=" work_description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam dolor
-        quibusdam ducimus natus neque, illum perspiciatis maiores debitis iusto?
-        Facilis iure voluptatibus velit amet ut quos blanditiis ab et natus.
+      <p class="work_description">
+        Voici quelques-unes des entreprises pour lesquelles j'ai travaillé, de
+        Floraison à Kiro'o games, j'ai pu apprendre des autres et acquérir une expérience
+        expérience que je partage avec d'autres sur ma chaîne
+        <a
+          href="https://www.youtube.com/channel/UCsEsYHr8O0jKpskPTEEqWow"
+          class="youtube_link"
+          target="_blank"
+        >
+          youtube <i class="fa fa-youtube-play"></i
+        ></a>
+        lorsque j'ai un peu de temps libre.
       </p>
     </div>
   </div>
@@ -64,10 +71,15 @@ img {
   max-height: 100px;
   max-width: 100px;
 }
-.work_description{
-      margin-top: 16px;
-    font-family: "Karla", sans-serif;
-    font-weight: 700;
-    color: #b4b2c5;
+.work_description {
+  margin-top: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #b4b2c5;
+}
+.youtube_link {
+  text-decoration: none;
+  color: #ff0000;
+  cursor: pointer;
 }
 </style>

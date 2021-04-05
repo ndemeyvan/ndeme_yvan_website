@@ -10,8 +10,8 @@
           <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
             <div class="hero__caption">
               <h1 class="profession">
-                My name is Ndeme Rodrigue.<br />
-                Mobile / Web Developer
+               Moi c'est Ndeme Rodrigue.<br />
+                Mobile / Web Développeur
               </h1>
               <p class="small_description">Développeur Android (Flutter / Natif) / Web (Vuejs / Reactjs)</p>
             </div>
