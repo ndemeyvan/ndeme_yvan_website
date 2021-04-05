@@ -1,158 +1,11 @@
 <template>
   <div id="works">
     <div class="title text-center">
-      <p class="litle_title">MY WORKS</p>
-      <h1 class="big_title">My Works</h1>
+      <p class="litle_title">MES TRAVAUX</p>
+      <h1 class="big_title">Mes travaux</h1>
     </div>
 
-    <div class="cards-1 section-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-image">
-                <a href="#">
-                  <img class="img" src="../assets/img/efram_home.jpg" />
-                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
-                </a>
-                <div class="ripple-cont"></div>
-              </div>
-              <div class="table">
-                <h6 class="category text-info">Application mobile E-Farm</h6>
-                <p class="card-description">
-                  L'application efarm est une application développée avec le
-                  Framework Flutter. <br />
-                  Elle vise à mettre en relation les agriculteurs et les
-                  acheteurs de produits alimentaires. acheteurs de produits
-                  alimentaires. <br /> Ce projet était vraiment un défi pour moi en raison du
-                  délai de livraison qui m'était imposé, Je devais aller plus
-                  vite et faire du bon travail en même temps, comme faire plus
-                  de 15 écrans en 1 jour en 1 jour, intégrer rapidement les API
-                  et faire attention à la permormance des appareils et à
-                  l'expérience utilisateur J'ai beaucoup appris sur Flutter. Une
-                  version sera bientôt disponible sur le playstore.
-                </p>
-
-                <a
-                  href="http://"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="git_repo"
-                  >REPOSITORY GIT</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-image">
-                <a href="#">
-                  <img class="img" src="../assets/img/portfolioApp.jpg" />
-                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
-                </a>
-                <div class="ripple-cont"></div>
-              </div>
-              <div class="table">
-                <h6 class="category text-info">E-Farm</h6>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
-                  lacinia elit et placerat finibus. Praesent justo metus,
-                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
-                  odio antement, feugiat eget nisi sit amet, scelerisque
-                  dignissim velit antement.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-image">
-                <a href="#">
-                  <img class="img" src="../assets/img/login_ui.jpg" />
-                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
-                </a>
-                <div class="ripple-cont"></div>
-              </div>
-              <div class="table">
-                <h6 class="category text-info">B commerce</h6>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
-                  lacinia elit et placerat finibus. Praesent justo metus,
-                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
-                  odio antement, feugiat eget nisi sit amet, scelerisque
-                  dignissim velit antement.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-image">
-                <a href="#">
-                  <img class="img" src="../assets/img/b_commerce_home.jpg" />
-                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
-                </a>
-                <div class="ripple-cont"></div>
-              </div>
-              <div class="table">
-                <h6 class="category text-info">B commerce</h6>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
-                  lacinia elit et placerat finibus. Praesent justo metus,
-                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
-                  odio antement, feugiat eget nisi sit amet, scelerisque
-                  dignissim velit antement.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-image">
-                <a href="#">
-                  <img class="img" src="../assets/img/activa_showroom.png" />
-                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
-                </a>
-                <div class="ripple-cont"></div>
-              </div>
-              <div class="table">
-                <h6 class="category text-info">B commerce</h6>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
-                  lacinia elit et placerat finibus. Praesent justo metus,
-                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
-                  odio antement, feugiat eget nisi sit amet, scelerisque
-                  dignissim velit antement.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-image">
-                <a href="#">
-                  <img class="img" src="../assets/img/b_commerce_home.jpg" />
-                  <!-- <div class="card-caption">Quisque a bibendum magna</div> -->
-                </a>
-                <div class="ripple-cont"></div>
-              </div>
-              <div class="table">
-                <h6 class="category text-info">Eneo mobile application</h6>
-                <p class="card-description">
-                  Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam
-                  lacinia elit et placerat finibus. Praesent justo metus,
-                  pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus
-                  odio antement, feugiat eget nisi sit amet, scelerisque
-                  dignissim velit antement.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
   </div>
 </template>
 
@@ -168,7 +21,7 @@ export default {
 #works {
   min-height: 500px;
 }
-.title {
+.litle_title {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;

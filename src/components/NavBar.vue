@@ -22,16 +22,16 @@
           <div class="linklist">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Work</a>
+                <a class="nav-link" aria-current="page" href="#">COMPÉTENCES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Services</a>
+                <a class="nav-link" aria-current="page" href="#">TRAVAUX</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contact</a>
+                <a class="nav-link" aria-current="page" href="#">A PROPOS DE MOI</a>
               </li>
             </ul>
           </div>
