@@ -33,7 +33,7 @@
               J'ai toujours été curieux de comprendre le fonctionnement des
               applications les plus populaires, c'est ainsi que j'ai commencé à
               développer des applications mobiles natives d'abord avec Java et
-              Kotlin aujourd'hui.
+              Kotlin.
             </p>
           </div>
         </div>
