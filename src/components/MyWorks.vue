@@ -8,11 +8,13 @@
       <div class="row">
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">{{title}}</h1>
-            <p class="summary_project">{{resume}}</p>
-            <p>{{description}}</p>
+            <h1 class="big_title mb-3">{{ title }}</h1>
+            <p class="summary_project">{{ resume }}</p>
+            <p>{{ description }}</p>
             <a class="contact-me" :href="link" target="_blank">VOIR</a>
+             <p class="nota_bene mt-3">NB: Cliquez sur une image pour un résumé du projet</p>
           </div>
+         
         </div>
         <div class="col-md-6 project_images">
           <div class="image_item2" @click="ChangeToElement1"></div>
@@ -33,48 +35,48 @@ export default {
     return {
       title: "Efarm mobile",
       resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?",
       link: "https://www.google.com",
     };
   },
   methods: {
-    ChangeToElement1() {
-      this.title = "Efarm mobile";
+        ChangeToElement1() {
+      this.title = "Efam mobile app";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
-        ChangeToElement2() {
+    ChangeToElement2() {
       this.title = "Login Ui";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
-        ChangeToElement3() {
+    ChangeToElement3() {
       this.title = "Personal Portfolio";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
-        ChangeToElement4() {
+    ChangeToElement4() {
       this.title = "Floraison app";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
-        ChangeToElement5() {
+    ChangeToElement5() {
       this.title = "B commerce";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
-        ChangeToElement6() {
+    ChangeToElement6() {
       this.title = "Activa assurance";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
@@ -211,5 +213,11 @@ export default {
   animation: scale 1s linear;
   transform-origin: 50% 50%;
   animation-fill-mode: forwards;
+}
+
+.nota_bene{
+    font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #b4b2c5;
 }
 </style>
