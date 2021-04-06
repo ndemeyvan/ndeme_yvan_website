@@ -1,6 +1,6 @@
 <template>
  <div>
-    <!-- <NavBar/> -->
+  <NavBar/>
   <Hearder/>
   <MonExpertise/>
   <MyWorks/>
@@ -13,7 +13,7 @@
 
 <script>
 import Hearder from '../src/components/Header'
-// import NavBar from '../src/components/NavBar'
+import NavBar from '../src/components/NavBar'
 import MonExpertise from '../src/components/MonExpertise'
 import MyWorks from '../src/components/MyWorks'
 // import Compagnie from '../src/components/Compagnie'
@@ -25,7 +25,7 @@ export default {
   name: 'App',
   components: {
     Hearder,
-    // NavBar,
+    NavBar,
     MonExpertise,
     MyWorks,
     // Compagnie,

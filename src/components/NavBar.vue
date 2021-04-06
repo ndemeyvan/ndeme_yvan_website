@@ -1,43 +1,39 @@
 <template>
-  <div class="navigation_bar ">
-    <nav class="navbar navbar-expand-lg navbar-dark position-sticky fixed-top">
-      <div class="container-fluid fixed-top navigation_bar">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+  <div>
+    <nav class="site-header sticky-top py-4 fixed-top">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between"
+      >
+        <a class="py-2" href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="d-block mx-auto"
+          >
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+            <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+            <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+            <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+            <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+            <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+          </svg>
+        </a>
+        <a class="py-2 d-none d-md-inline-block" href="#header">ACCEUIL</a>
+        <a class="py-2 d-none d-md-inline-block" href="#expertise"
+          >COMPÉTENCES</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          class="collapse navbar-collapse navigation_elements"
-          id="navbarTogglerDemo01"
+        <a class="py-2 d-none d-md-inline-block" href="#works">TRAVAUX</a>
+        <a class="py-2 d-none d-md-inline-block" href="#about"
+          >A PROPOS DE MOI</a
         >
-          <a class="navbar-brand" href="#">Rodrigue Ndeme</a>
-          <div class="linklist">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">COMPÉTENCES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">TRAVAUX</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">A PROPOS DE MOI</a>
-              </li>
-            </ul>
-          </div>
-          <a  class="contact-me" href="mailto:ndemeyvan@gmail.com">DOWNLOAD CV</a>
-         
-        </div>
       </div>
     </nav>
   </div>
@@ -48,32 +44,21 @@ export default {};
 </script>
 
 <style scoped>
-.navbar {
-  background-color: #4caf50;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  
-}
-.navigation_bar{
-    background-color: #4caf50;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  position:fixed;
-      z-index: 3;
 
+.site-header {
+  background-color: #4caf50;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
 }
-.navbar-brand {
-  font-weight: 300;
-  size: 16px;
-  font-style: normal;
-  font-family: "Space Grotesk", sans-serif;
-}
-.nav-link {
-  font-weight: 700;
-  size: 16px;
+.site-header a {
   font-family: "Karla", sans-serif;
-  line-height: 20px;
+  font-weight: 500;
+  color: white;
+  transition: ease-in-out color 0.15s;
+  text-decoration: none;
 }
+
 .navigation_elements {
   display: flex;
   justify-content: space-between;

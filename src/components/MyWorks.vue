@@ -8,24 +8,15 @@
       <div class="row">
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">Sengoku 3</h1>
-            <p class="summary_project">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              esse adipisci expedita maxime suscipit eius doloremque ea deleniti
-              aliquam enim, ullam quibusdam, quas repellendus, itaque natus
-              accusantium recusandae. Non, dolores?
-            </p>
-            <a class="contact-me" href="mailto:ndemeyvan@gmail.com"
-              >SOURCE CODE</a
-            >
+            <h1 class="big_title mb-3">{{title}}</h1>
+            <p class="summary_project">{{resume}}</p>
+            <p>{{description}}</p>
+            <a class="contact-me" :href="link" target="_blank">VOIR</a>
           </div>
         </div>
         <div class="col-md-6 project_images">
-          <div class="block image_item2"></div>
-          <div class="block image_item1"></div>
+          <div class="image_item2" @click="ChangeToElement1"></div>
+          <div class="image_item1"></div>
           <div class="image_item3"></div>
           <div class="image_item4"></div>
           <div class="image_item5"></div>
@@ -33,16 +24,63 @@
         </div>
       </div>
     </div>
-
-
-    
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {
+      title: "Efarm mobile",
+      resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?",
+      link: "https://www.google.com",
+    };
+  },
+  methods: {
+    ChangeToElement1() {
+      this.title = "Efarm mobile";
+      this.description =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+      this.link = "https://www.google.com";
+      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+    },
+        ChangeToElement2() {
+      this.title = "Login Ui";
+      this.description =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+      this.link = "https://www.google.com";
+      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+    },
+        ChangeToElement3() {
+      this.title = "Personal Portfolio";
+      this.description =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+      this.link = "https://www.google.com";
+      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+    },
+        ChangeToElement4() {
+      this.title = "Foraison app";
+      this.description =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+      this.link = "https://www.google.com";
+      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+    },
+        ChangeToElement5() {
+      this.title = "B commerce";
+      this.description =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+      this.link = "https://www.google.com";
+      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+    },
+        ChangeToElement6() {
+      this.title = "Activa assurance";
+      this.description =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+      this.link = "https://www.google.com";
+      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+    },
   },
   components: {},
 };
@@ -84,7 +122,7 @@ export default {
 .project_summary {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 .contact-me {
@@ -158,41 +196,20 @@ export default {
   cursor: pointer;
 }
 
-.block{
-  -webkit-animation:scaledown 1s linear;
-  -moz-animation:scaledown 1s linear;
-  animation:scaledown 1s linear;
-  transform-origin:50% 50%;
+.block {
+  -webkit-animation: scaledown 1s linear;
+  -moz-animation: scaledown 1s linear;
+  animation: scaledown 1s linear;
+  transform-origin: 50% 50%;
   animation-fill-mode: forwards;
 }
 
-.block:hover{
-   z-index:100;
-  -webkit-animation:scale 1s linear;
-  -moz-animation:scale 1s linear;
-  animation:scale 1s linear;
-  transform-origin:50% 50%;
+.block:hover {
+  z-index: 100;
+  -webkit-animation: scale 1s linear;
+  -moz-animation: scale 1s linear;
+  animation: scale 1s linear;
+  transform-origin: 50% 50%;
   animation-fill-mode: forwards;
-}
-
-@keyframes scale{
-  0%{
-    transform:scale(1.0);
-  }
-  100%{
-    transform:scale(1.1);
-    -webkit-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
--moz-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
-box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.1);
-  }
-}
-
-@keyframes scaledown{
-  0%{
-    transform:scale(1.1);
-  }
-   100%{
-    transform:scale(1.0);
-  }
 }
 </style>
