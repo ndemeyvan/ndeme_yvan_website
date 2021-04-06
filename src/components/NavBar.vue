@@ -44,7 +44,6 @@ export default {};
 </script>
 
 <style scoped>
-
 .site-header {
   background-color: #4caf50;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
