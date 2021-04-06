@@ -92,7 +92,7 @@ export default {};
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 30px;
+  border-radius: 5px;
   border: 1px solid #fff;
   text-align: center;
   outline: none;
