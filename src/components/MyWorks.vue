@@ -16,11 +16,11 @@
         </div>
         <div class="col-md-6 project_images">
           <div class="image_item2" @click="ChangeToElement1"></div>
-          <div class="image_item1"></div>
-          <div class="image_item3"></div>
-          <div class="image_item4"></div>
-          <div class="image_item5"></div>
-          <div class="image_item6"></div>
+          <div class="image_item1" @click="ChangeToElement2"></div>
+          <div class="image_item3" @click="ChangeToElement3"></div>
+          <div class="image_item4" @click="ChangeToElement4"></div>
+          <div class="image_item5" @click="ChangeToElement5"></div>
+          <div class="image_item6" @click="ChangeToElement6"></div>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@ export default {
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
         ChangeToElement4() {
-      this.title = "Foraison app";
+      this.title = "Floraison app";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
