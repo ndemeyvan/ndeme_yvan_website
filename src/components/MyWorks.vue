@@ -10,17 +10,18 @@
           <div>
             <h1 class="big_title mb-3">{{ title }}</h1>
             <p class="summary_project">{{ resume }}</p>
-            <p>{{ description }}</p>
+            <p v-html="description"></p>
             <a class="contact-me" :href="link" target="_blank">VOIR</a>
-             <p class="nota_bene mt-3">NB: Cliquez sur une image pour un résumé du projet</p>
+            <p class="nota_bene mt-3">
+              NB: Cliquez sur une image pour un résumé du projet
+            </p>
           </div>
-         
         </div>
         <div class="col-md-6 project_images">
           <div class="image_item2" @click="ChangeToElement1"></div>
+          <div class="image_item4" @click="ChangeToElement4"></div>
           <div class="image_item1" @click="ChangeToElement2"></div>
           <div class="image_item3" @click="ChangeToElement3"></div>
-          <div class="image_item4" @click="ChangeToElement4"></div>
           <div class="image_item5" @click="ChangeToElement5"></div>
           <div class="image_item6" @click="ChangeToElement6"></div>
         </div>
@@ -34,19 +35,23 @@ export default {
   data() {
     return {
       title: "Efarm mobile",
-      resume: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      resume:
+        "L'application eFarm.cm est une plateforme mobile innovante pour l'achat et la vente de produits exclusivement agricoles.",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?",
-      link: "https://www.google.com",
+        "L'application Efarm est une boutique en ligne qui vise à faciliter la vente des produits des agriculteurs. <br><br> L'application a été développée en Flutter, c'était un vrai défi pour moi de créer les interfaces utilisateurs rapidement tout en respectant le design et de finalement intégrer les APIs qui m'ont été données.  <br><br> J'ai beaucoup appris de ce projet et je continue à développer des mises à jour pour ce client car ce projet me tient également à cœur.",
+      link:
+        "https://play.google.com/store/apps/details?id=com.bee_studio.efarm",
     };
   },
   methods: {
-        ChangeToElement1() {
-      this.title = "Efam mobile app";
+    ChangeToElement1() {
+      this.title = "Efarm mobile";
+      this.resume =
+        "L'application eFarm.cm est une plateforme mobile innovante pour l'achat et la vente de produits exclusivement agricoles.";
       this.description =
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
-      this.link = "https://www.google.com";
-      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+        "L'application Efarm est une boutique en ligne qui vise à faciliter la vente des produits des agriculteurs. <br><br> L'application a été développée en Flutter, c'était un vrai défi pour moi de créer les interfaces utilisateurs rapidement tout en respectant le design et de finalement intégrer les APIs qui m'ont été données.  <br><br> J'ai beaucoup appris de ce projet et je continue à développer des mises à jour pour ce client car ce projet me tient également à cœur.";
+      this.link =
+        "https://play.google.com/store/apps/details?id=com.bee_studio.efarm";
     },
     ChangeToElement2() {
       this.title = "Login Ui";
@@ -57,6 +62,8 @@ export default {
     },
     ChangeToElement3() {
       this.title = "Personal Portfolio";
+      this.resume =
+        "Comparez, achetez et économisez avec l'application Floraison, le 1er comparateur de prix et d'offres promotionnelles exclusivement dédié aux biens de consommation au Cameroun.";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
@@ -64,9 +71,11 @@ export default {
     },
     ChangeToElement4() {
       this.title = "Floraison app";
+      this.resume =
+        "Comparez, achetez et économisez avec l'application Floraison, le 1er comparateur de prix et d'offres promotionnelles exclusivement dédié aux biens de consommation au Cameroun.";
       this.description =
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
-      this.link = "https://www.google.com";
+        "L'application Floraison est le premier site camerounais de comparaison de prix.<br> <br>L'application a été développée avec le langage Java nativement, c'était un de mes premiers vrais projets, il m'a permis de mettre en pratique ce que j'avais appris (Recycleview, intégration Api, utilisation de firebase etc.) sans oublier le travail d'équipe qui est quelque chose de très important.<br> <br>C'est ce projet qui m'a donné une base solide, qui m'a permis d'affronter plus sereinement d'autres projets plus complexes.";
+      this.link = "https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket";
       this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
     ChangeToElement5() {
@@ -215,8 +224,8 @@ export default {
   animation-fill-mode: forwards;
 }
 
-.nota_bene{
-    font-family: "Karla", sans-serif;
+.nota_bene {
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   color: #b4b2c5;
 }
