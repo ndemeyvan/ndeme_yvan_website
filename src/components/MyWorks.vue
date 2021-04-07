@@ -55,19 +55,19 @@ export default {
     },
     ChangeToElement2() {
       this.title = "Login Ui";
+        this.resume =
+        "Speed Ui - Écran de connexion";
       this.description =
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
-      this.link = "https://www.google.com";
-      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+        "Il s'agit d'un tutoriel que j'ai réalisé sur ma chaîne <i class='fab fa-youtube logo_image_youtub'></i><span> Youtubeur</span> lorsque j'avais quelques minutes à perdre.<br>j'y montre comment il est possible de coder un écran de connexion complet en quelques minutes. <br>likez et abonnez-vous à ma page :)";
+      this.link = "https://www.youtube.com/watch?v=K8fhEM06EjM";
     },
     ChangeToElement3() {
       this.title = "Personal Portfolio";
       this.resume =
-        "Comparez, achetez et économisez avec l'application Floraison, le 1er comparateur de prix et d'offres promotionnelles exclusivement dédié aux biens de consommation au Cameroun.";
+        "Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio sur le PlayStore";
       this.description =
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
+        "Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio sur le PlayStore.<br><br>L'application a été développée en Flutter, vous y trouverez un résumé de moi et des technologies que j'utilise régulièrement.";
       this.link = "https://www.google.com";
-      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
     ChangeToElement4() {
       this.title = "Floraison app";
@@ -75,10 +75,11 @@ export default {
         "Comparez, achetez et économisez avec l'application Floraison, le 1er comparateur de prix et d'offres promotionnelles exclusivement dédié aux biens de consommation au Cameroun.";
       this.description =
         "L'application Floraison est le premier comparateur de prix au Cameroun.<br> <br>L'application a été développée avec le langage Java nativement, c'était un de mes premiers vrais projets, il m'a permis de mettre en pratique ce que j'avais appris (Recycleview, intégration Api, utilisation de firebase etc.) sans oublier le travail d'équipe qui est quelque chose de très important.<br> <br>C'est ce projet qui m'a donné une base solide, qui m'a permis d'affronter plus sereinement d'autres projets plus complexes.";
-      this.link = "https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket";
+      this.link =
+        "https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket";
     },
     ChangeToElement5() {
-      this.title = "B commerce";
+      this.title = "B_commerce";
       this.description =
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
       this.link = "https://www.google.com";
