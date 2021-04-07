@@ -74,9 +74,8 @@ export default {
       this.resume =
         "Comparez, achetez et économisez avec l'application Floraison, le 1er comparateur de prix et d'offres promotionnelles exclusivement dédié aux biens de consommation au Cameroun.";
       this.description =
-        "L'application Floraison est le premier site camerounais de comparaison de prix.<br> <br>L'application a été développée avec le langage Java nativement, c'était un de mes premiers vrais projets, il m'a permis de mettre en pratique ce que j'avais appris (Recycleview, intégration Api, utilisation de firebase etc.) sans oublier le travail d'équipe qui est quelque chose de très important.<br> <br>C'est ce projet qui m'a donné une base solide, qui m'a permis d'affronter plus sereinement d'autres projets plus complexes.";
+        "L'application Floraison est le premier comparateur de prix au Cameroun.<br> <br>L'application a été développée avec le langage Java nativement, c'était un de mes premiers vrais projets, il m'a permis de mettre en pratique ce que j'avais appris (Recycleview, intégration Api, utilisation de firebase etc.) sans oublier le travail d'équipe qui est quelque chose de très important.<br> <br>C'est ce projet qui m'a donné une base solide, qui m'a permis d'affronter plus sereinement d'autres projets plus complexes.";
       this.link = "https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket";
-      this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
     },
     ChangeToElement5() {
       this.title = "B commerce";
