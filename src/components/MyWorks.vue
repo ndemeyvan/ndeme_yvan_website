@@ -81,10 +81,33 @@
             <a class="see_more" href="link" target="_blank">VOIR</a>
           </div>
         </div>
+        <div class="col-md-6 activa_costapp_image"></div>
+
+        <!--b_commerce -->
         <div class="col-md-6 b_commerce_image"></div>
-      
-        <!--portfolio -->
-        <div class="col-md-6 portfolio_image"></div>
+        <div class="col-md-6 project_summary px-5">
+          <div>
+            <h1 class="big_title mb-3">B commerce tuto</h1>
+            <p class="summary_project">
+              Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
+              sur le PlayStore.
+            </p>
+            <p>
+              Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
+              sur le PlayStore.<br /><br />L'application a été développée en
+              Flutter, vous y trouverez un résumé de moi et des technologies que
+              j'utilise régulièrement.
+            </p>
+            <a
+              class="see_more"
+              href="https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket"
+              target="_blank"
+              >VOIR</a
+            >
+          </div>
+        </div>
+        <!-- Portfolio -->
+
         <div class="col-md-6 project_summary px-5">
           <div>
             <h1 class="big_title mb-3">Personal Portfolio</h1>
@@ -106,6 +129,7 @@
             >
           </div>
         </div>
+        <div class="col-md-6 portfolio_image"></div>
       </div>
     </div>
   </div>
@@ -116,41 +140,6 @@ export default {
   data() {
     return {};
   },
-  // methods: {
-  //   ChangeToElement1() {
-  //     this.title = "Efarm mobile";
-  //     this.resume =
-  //       "L'application eFarm.cm est une plateforme mobile innovante pour l'achat et la vente de produits exclusivement agricoles.";
-  //     this.description =
-  //       "L'application Efarm est une boutique en ligne qui vise à faciliter la vente des produits des agriculteurs. <br><br> L'application a été développée en Flutter, c'était un vrai défi pour moi de créer les interfaces utilisateurs rapidement tout en respectant le design et de finalement intégrer les APIs qui m'ont été données.  <br><br> J'ai beaucoup appris de ce projet et je continue à développer des mises à jour pour ce client car ce projet me tient également à cœur.";
-  //     this.link =
-  //       "https://play.google.com/store/apps/details?id=com.bee_studio.efarm";
-  //   },
-  //   ChangeToElement2() {
-  //     this.title = "Login Ui";
-  //       this.resume =
-  //       "Speed Ui - Écran de connexion";
-  //     this.description =
-  //       "Il s'agit d'un tutoriel que j'ai réalisé sur ma chaîne <i class='fab fa-youtube logo_image_youtub'></i><span> Youtubeur</span> lorsque j'avais quelques minutes à perdre.<br>j'y montre comment il est possible de coder un écran de connexion complet en quelques minutes. <br>likez et abonnez-vous à ma page :)";
-  //     this.link = "https://www.youtube.com/watch?v=K8fhEM06EjM";
-  //   },
-  //   ChangeToElement3() {
-  //     this.title = "Personal Portfolio";
-  //     this.resume =
-  //       "Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio sur le PlayStore";
-  //     this.description =
-  //       "Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio sur le PlayStore.<br><br>L'application a été développée en Flutter, vous y trouverez un résumé de moi et des technologies que j'utilise régulièrement.";
-  //     this.link = "https://www.google.com";
-  //   },
-  //   ChangeToElement5() {
-  //     this.title = "B_commerce";
-  //     this.description =
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloresse adipisci expedita maxime suscipit eius doloremque ea delenitialiquam enim, ullam quibusdam, quas repellendus, itaque natusaccusantium recusandae. Non, dolores?";
-  //     this.link = "https://www.google.com";
-  //     this.resume = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
-  //   },
-
-  // },
   components: {},
 };
 </script>
@@ -184,7 +173,6 @@ export default {
 }
 
 .project_zone {
-  margin-bottom: 100px;
   margin-top: 100px;
 }
 
