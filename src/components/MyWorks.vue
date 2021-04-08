@@ -10,11 +10,11 @@
         <div class="col-md-6 project_summary px-5">
           <div>
             <h1 class="big_title mb-3">Efarm mobile</h1>
-            <p class="summary_project">
+            <p class="summary_project ">
               L'application eFarm.cm est une plateforme mobile innovante pour
               l'achat et la vente de produits exclusivement agricoles.
             </p>
-            <p>
+            <p class="description">
               L'application Efarm est une boutique en ligne qui vise à faciliter
               la vente des produits des agriculteurs. <br /><br />
               L'application a été développée en Flutter, c'était un vrai défi
@@ -39,7 +39,7 @@
               1er comparateur de prix et d'offres promotionnelles exclusivement
               dédié aux biens de consommation au Cameroun.
             </p>
-            <p>
+            <p  class="description">
               L'application Floraison est le premier comparateur de prix au
               Cameroun.<br />
               <br />L'application a été développée avec le langage Java
@@ -67,7 +67,7 @@
               L'application eFarm.cm est une plateforme mobile innovante pour
               l'achat et la vente de produits exclusivement agricoles.
             </p>
-            <p>
+            <p  class="description">
               L'application Efarm est une boutique en ligne qui vise à faciliter
               la vente des produits des agriculteurs. <br /><br />
               L'application a été développée en Flutter, c'était un vrai défi
@@ -92,7 +92,7 @@
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
             </p>
-            <p>
+            <p  class="description">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.<br /><br />L'application a été développée en
               Flutter, vous y trouverez un résumé de moi et des technologies que
@@ -115,7 +115,7 @@
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
             </p>
-            <p>
+            <p class="description">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.<br /><br />L'application a été développée en
               Flutter, vous y trouverez un résumé de moi et des technologies que
@@ -213,6 +213,13 @@ export default {
   font-weight: 700;
   line-height: 20px;
   color: black;
+    text-align: justify;
+  width: 600px;
+}
+
+.description{
+  text-align: justify;
+  width: 600px;
 }
 .efarm_image {
   background-image: url("../assets/img/efarm_mockup.png");
@@ -250,4 +257,6 @@ export default {
   background-color: blue;
   cursor: pointer;
 }
+
+
 </style>
