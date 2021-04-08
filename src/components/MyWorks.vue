@@ -51,7 +51,12 @@
               permis d'affronter plus sereinement d'autres projets plus
               complexes.
             </p>
-            <a class="see_more" :href="link" target="_blank">VOIR</a>
+            <a
+              class="see_more"
+              href="https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket"
+              target="_blank"
+              >VOIR</a
+            >
           </div>
         </div>
         <!-- Activa cost app -->
@@ -76,8 +81,31 @@
             <a class="see_more" href="link" target="_blank">VOIR</a>
           </div>
         </div>
-        <div class="col-md-6 activa_costapp_image"></div>
-        <!-- B_commerce -->
+        <div class="col-md-6 b_commerce_image"></div>
+      
+        <!--portfolio -->
+        <div class="col-md-6 portfolio_image"></div>
+        <div class="col-md-6 project_summary px-5">
+          <div>
+            <h1 class="big_title mb-3">Personal Portfolio</h1>
+            <p class="summary_project">
+              Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
+              sur le PlayStore.
+            </p>
+            <p>
+              Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
+              sur le PlayStore.<br /><br />L'application a été développée en
+              Flutter, vous y trouverez un résumé de moi et des technologies que
+              j'utilise régulièrement.
+            </p>
+            <a
+              class="see_more"
+              href="https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket"
+              target="_blank"
+              >VOIR</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -113,15 +141,6 @@ export default {
   //     this.description =
   //       "Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio sur le PlayStore.<br><br>L'application a été développée en Flutter, vous y trouverez un résumé de moi et des technologies que j'utilise régulièrement.";
   //     this.link = "https://www.google.com";
-  //   },
-  //   ChangeToElement4() {
-  //     this.title = "Floraison app";
-  //     this.resume =
-  //       "Comparez, achetez et économisez avec l'application Floraison, le 1er comparateur de prix et d'offres promotionnelles exclusivement dédié aux biens de consommation au Cameroun.";
-  //     this.description =
-  //       "L'application Floraison est le premier comparateur de prix au Cameroun.<br> <br>L'application a été développée avec le langage Java nativement, c'était un de mes premiers vrais projets, il m'a permis de mettre en pratique ce que j'avais appris (Recycleview, intégration Api, utilisation de firebase etc.) sans oublier le travail d'équipe qui est quelque chose de très important.<br> <br>C'est ce projet qui m'a donné une base solide, qui m'a permis d'affronter plus sereinement d'autres projets plus complexes.";
-  //     this.link =
-  //       "https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket";
   //   },
   //   ChangeToElement5() {
   //     this.title = "B_commerce";
@@ -221,13 +240,26 @@ export default {
   background-color: blue;
   cursor: pointer;
 }
-
-.activa_costapp_image{
-    background-image: url("../assets/img/activa_mockup.jpeg");
+.portfolio_image {
+  background-image: url("../assets/img/portfolio_mockup.jpeg");
+  background-size: cover;
+  height: 500px;
+  background-color: blue;
+  cursor: pointer;
+}
+.b_commerce_image {
+  background-image: url("../assets/img/b_commerce_mockup.jpeg");
   background-size: cover;
   height: 500px;
   background-color: blue;
   cursor: pointer;
 }
 
+.activa_costapp_image {
+  background-image: url("../assets/img/activa_mockup.jpeg");
+  background-size: cover;
+  height: 500px;
+  background-color: blue;
+  cursor: pointer;
+}
 </style>
