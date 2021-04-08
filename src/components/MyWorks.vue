@@ -130,6 +130,29 @@
           </div>
         </div>
         <div class="col-md-6 portfolio_image"></div>
+        <!-- Login Ui -->
+                <div class="col-md-6 login_ui_image"></div>
+        <div class="col-md-6 project_summary px-5">
+          <div>
+            <h1 class="big_title mb-3">Login Ui</h1>
+            <p class="summary_project">
+              Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
+              sur le PlayStore.
+            </p>
+            <p  class="description">
+              Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
+              sur le PlayStore.<br /><br />L'application a été développée en
+              Flutter, vous y trouverez un résumé de moi et des technologies que
+              j'utilise régulièrement.
+            </p>
+            <a
+              class="see_more"
+              href="https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket"
+              target="_blank"
+              >VOIR</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -256,6 +279,16 @@ export default {
   height: 500px;
   background-color: blue;
   cursor: pointer;
+}
+.login_ui_image{
+    background-image: url("../assets/img/login_ui_mockup.jpg");
+  background-size: cover;
+  height: 500px;
+  background-color: blue;
+}
+.playstore{
+  width: 250px;
+  height:250px;
 }
 
 
