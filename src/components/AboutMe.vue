@@ -113,4 +113,35 @@ export default {};
   display: flex;
   margin-top: 77px;
 }
+@media only screen and (max-width: 600px) {
+  .litle_title[data-v-6cb1b4f6] {
+    margin-top: 50px;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+      text-align: -webkit-center;
+
+}
+.big_title {
+  font-size: 30px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: -webkit-center;
+}
+.description[data-v-6cb1b4f6] {
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+}
+
+#about {
+    background-color: #4caf50;
+    /* min-height: 890px; */
+    justify-content: center;
+    align-items: center;
+    padding: 132px 7%;
+}
+}
 </style>

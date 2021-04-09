@@ -46,19 +46,23 @@ export default {
 .profession {
   color: white;
   font-weight: 500;
-  font-size: 50px;
   font-weight: 400;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
   font-size: 64px;
   font-style: normal;
 }
+
 .small_description {
   color: black;
   font-size: 20px;
   font-weight: 750;
   padding-top: 15px;
 }
+
+
+
+
 span {
   font-weight: 400;
   font-size: 26px;
@@ -82,5 +86,32 @@ hover:active {
 img{
   max-height: 300px;
   
+}
+/* Media query */
+@media only screen and (max-width: 600px) {
+.profession {
+  color: blue-grey;
+  font-weight: 500;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+img{
+  max-height: 150px;
+  
+}
+
+#header {
+  min-height: 700px;
+  background-color: #4caf50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+
+
 }
 </style>

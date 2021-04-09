@@ -7,7 +7,7 @@
     <div class="container-fluid project_zone">
       <div class="row">
         <!-- Efarm -->
-        <div class="col-md-6 project_summary px-5">
+        <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">Efarm mobile</h1>
             <p class="summary_project ">
@@ -31,7 +31,7 @@
         <div class="col-md-6 efarm_image"></div>
         <!-- Floraison -->
         <div class="col-md-6 floraison_image"></div>
-        <div class="col-md-6 project_summary px-5">
+        <div class="col-md-6 project_summary ">
           <div>
             <h1 class="big_title mb-3">Floraison app</h1>
             <p class="summary_project">
@@ -60,7 +60,7 @@
           </div>
         </div>
         <!-- Activa cost app -->
-        <div class="col-md-6 project_summary px-5">
+        <div class="col-md-6 project_summary ">
           <div>
             <h1 class="big_title mb-3">Activa Cost app</h1>
             <p class="summary_project">
@@ -85,7 +85,7 @@
 
         <!--b_commerce -->
         <div class="col-md-6 b_commerce_image"></div>
-        <div class="col-md-6 project_summary px-5">
+        <div class="col-md-6 project_summary ">
           <div>
             <h1 class="big_title mb-3">B commerce tuto</h1>
             <p class="summary_project">
@@ -108,14 +108,14 @@
         </div>
         <!-- Portfolio -->
 
-        <div class="col-md-6 project_summary px-5">
+        <div class="col-md-6 project_summary ">
           <div>
             <h1 class="big_title mb-3">Personal Portfolio</h1>
             <p class="summary_project">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
             </p>
-            <p class="description">
+            <p class="">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.<br /><br />L'application a été développée en
               Flutter, vous y trouverez un résumé de moi et des technologies que
@@ -132,7 +132,7 @@
         <div class="col-md-6 portfolio_image"></div>
         <!-- Login Ui -->
                 <div class="col-md-6 login_ui_image"></div>
-        <div class="col-md-6 project_summary px-5">
+        <div class="col-md-6 project_summary ">
           <div>
             <h1 class="big_title mb-3">Login Ui</h1>
             <p class="summary_project">
@@ -174,7 +174,7 @@ export default {
 #works {
   min-height: 500px;
 }
-.litle_title {
+/* .litle_title {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -187,7 +187,7 @@ export default {
   font-size: 64px;
   font-style: normal;
   font-family: "Space Grotesk", sans-serif;
-}
+} */
 
 .info-text {
   font-family: "Karla", sans-serif;
@@ -203,6 +203,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:0 35px;
 }
 
 .see_more {
@@ -236,13 +237,11 @@ export default {
   font-weight: 700;
   line-height: 20px;
   color: black;
-    text-align: justify;
-  width: 600px;
+  text-align: justify;
 }
 
 .description{
   text-align: justify;
-  width: 600px;
 }
 .efarm_image {
   background-image: url("../assets/img/efarm_mockup.png");
@@ -286,10 +285,15 @@ export default {
   height: 500px;
   background-color: blue;
 }
-.playstore{
-  width: 250px;
-  height:250px;
+
+@media only screen and (max-width: 600px) {
+  .project_summary {
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align: center;
+  }
 }
+
 
 
 </style>

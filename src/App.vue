@@ -36,4 +36,22 @@ export default {
 </script>
 
 <style>
+
+@media only screen and (max-width: 600px) {
+.litle_title {
+  margin-top: 70px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  color: #b4b2c5;
+}
+.big_title {
+  font-weight: 700;
+  color: #130f49;
+  font-size: 34px;
+  font-style: normal;
+  font-family: "Space Grotesk", sans-serif;
+}
+}
+
 </style>

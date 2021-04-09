@@ -1,6 +1,6 @@
 <template>
   <div id="expertise">
-    <div class="title text-center">
+    <div class="title text-center ">
       <p class="litle_title">MES COMPÉTENCES</p>
       <h1 class="big_title">Mes Competences</h1>
     </div>
@@ -110,10 +110,12 @@ export default {
 #expertise {
   min-height: 500px;
 }
-.litle_title {
+
+/* .litle_title {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
+  line-height: 20px;
   color: #b4b2c5;
 }
 .big_title {
@@ -122,7 +124,8 @@ export default {
   font-size: 64px;
   font-style: normal;
   font-family: "Space Grotesk", sans-serif;
-}
+} */
+
 .list_skylls {
   margin-top: 80px;
 }
@@ -176,4 +179,9 @@ span {
   color: #ff0000;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+
+
+}
+
 </style>
