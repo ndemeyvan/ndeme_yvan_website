@@ -152,4 +152,15 @@ export default {
     font-size: 50px;
 }
 }
+
+@media only screen and (max-width: 1024px) {
+  #footer {
+    background-color: #0f1221;
+    padding: 70px 2%;
+    text-align: -webkit-center;
+  }
+  .big_text {
+    font-size: 50px;
+}
+}
 </style>
