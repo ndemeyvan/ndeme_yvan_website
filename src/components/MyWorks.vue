@@ -10,7 +10,7 @@
         <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">Efarm mobile</h1>
-            <p class="summary_project ">
+            <p class="summary_project">
               L'application eFarm.cm est une plateforme mobile innovante pour
               l'achat et la vente de produits exclusivement agricoles.
             </p>
@@ -31,7 +31,7 @@
         <div class="col-md-6 efarm_image"></div>
         <!-- Floraison -->
         <div class="col-md-6 floraison_image"></div>
-        <div class="col-md-6 project_summary ">
+        <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">Floraison app</h1>
             <p class="summary_project">
@@ -39,7 +39,7 @@
               1er comparateur de prix et d'offres promotionnelles exclusivement
               dédié aux biens de consommation au Cameroun.
             </p>
-            <p  class="description">
+            <p class="description">
               L'application Floraison est le premier comparateur de prix au
               Cameroun.<br />
               <br />L'application a été développée avec le langage Java
@@ -60,14 +60,14 @@
           </div>
         </div>
         <!-- Activa cost app -->
-        <div class="col-md-6 project_summary ">
+        <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">Activa Cost app</h1>
             <p class="summary_project">
               L'application eFarm.cm est une plateforme mobile innovante pour
               l'achat et la vente de produits exclusivement agricoles.
             </p>
-            <p  class="description">
+            <p class="description">
               L'application Efarm est une boutique en ligne qui vise à faciliter
               la vente des produits des agriculteurs. <br /><br />
               L'application a été développée en Flutter, c'était un vrai défi
@@ -85,14 +85,14 @@
 
         <!--b_commerce -->
         <div class="col-md-6 b_commerce_image"></div>
-        <div class="col-md-6 project_summary ">
+        <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">B commerce tuto</h1>
             <p class="summary_project">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
             </p>
-            <p  class="description">
+            <p class="description">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.<br /><br />L'application a été développée en
               Flutter, vous y trouverez un résumé de moi et des technologies que
@@ -108,7 +108,7 @@
         </div>
         <!-- Portfolio -->
 
-        <div class="col-md-6 project_summary ">
+        <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">Personal Portfolio</h1>
             <p class="summary_project">
@@ -131,15 +131,15 @@
         </div>
         <div class="col-md-6 portfolio_image"></div>
         <!-- Login Ui -->
-                <div class="col-md-6 login_ui_image"></div>
-        <div class="col-md-6 project_summary ">
+        <div class="col-md-6 login_ui_image"></div>
+        <div class="col-md-6 project_summary">
           <div>
             <h1 class="big_title mb-3">Login Ui</h1>
             <p class="summary_project">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
             </p>
-            <p  class="description">
+            <p class="description">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.<br /><br />L'application a été développée en
               Flutter, vous y trouverez un résumé de moi et des technologies que
@@ -203,7 +203,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:0 35px;
+  padding: 0 35px;
 }
 
 .see_more {
@@ -240,7 +240,7 @@ export default {
   text-align: justify;
 }
 
-.description{
+.description {
   text-align: justify;
 }
 .efarm_image {
@@ -279,8 +279,8 @@ export default {
   background-color: blue;
   cursor: pointer;
 }
-.login_ui_image{
-    background-image: url("../assets/img/login_ui_mockup.jpg");
+.login_ui_image {
+  background-image: url("../assets/img/login_ui_mockup.jpg");
   background-size: cover;
   height: 500px;
   background-color: blue;
@@ -288,12 +288,12 @@ export default {
 
 @media only screen and (max-width: 600px) {
   .project_summary {
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
   }
+  .big_title {
+    font-size: 24px;
+  }
 }
-
-
-
 </style>

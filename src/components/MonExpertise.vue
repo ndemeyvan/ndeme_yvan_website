@@ -1,6 +1,6 @@
 <template>
   <div id="expertise">
-    <div class="title text-center ">
+    <div class="title text-center">
       <p class="litle_title">MES COMPÉTENCES</p>
       <h1 class="big_title">Mes Competences</h1>
     </div>
@@ -79,17 +79,18 @@
             </div>
             <p class="mt-3 skill_description">
               Depuis quelques mois, quand j'ai un peu de temps libre, je crée du
-              contenu sur ma chaîne  <a
-          href="https://www.youtube.com/channel/UCsEsYHr8O0jKpskPTEEqWow"
-          class="youtube_link"
-          target="_blank"
-        >
-          youtube <i class="fa fa-youtube-play"></i
-        ></a> plus orienté vers le codage
-              d'applications mobiles avec le Framework Flutter, c'est vraiment
-              un plaisir pour moi de partager ce que j'apprends avec les autres,
-              même si je suis très occupé, je trouve toujours le temps de
-              publier une vidéo de temps en temps
+              contenu sur ma chaîne
+              <a
+                href="https://www.youtube.com/channel/UCsEsYHr8O0jKpskPTEEqWow"
+                class="youtube_link"
+                target="_blank"
+              >
+                youtube <i class="fa fa-youtube-play"></i
+              ></a>
+              plus orienté vers le codage d'applications mobiles avec le
+              Framework Flutter, c'est vraiment un plaisir pour moi de partager
+              ce que j'apprends avec les autres, même si je suis très occupé, je
+              trouve toujours le temps de publier une vidéo de temps en temps
             </p>
           </div>
         </div>
@@ -180,8 +181,15 @@ span {
   cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-
-
+  .big_title {
+    font-weight: 700;
+    color: #130f49;
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  .skill_description {
+    text-align: -webkit-center;
+  }
 }
-
 </style>

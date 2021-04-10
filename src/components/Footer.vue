@@ -9,7 +9,7 @@
               <p class="person_post text-light">Développeur mobile et Web</p>
             </div>
             <div class="email_me">
-              <p class="person_post text-light">Envoyez-moi un courriel à : </p>
+              <p class="person_post text-light">Envoyez-moi un courriel à :</p>
               <p class="person_email text-light">
                 <i class="far fa-envelope-open icon envelope mr-2"></i>
                 ndemeyvan@gmail.com
@@ -140,5 +140,16 @@ export default {
 }
 .envelope {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    background-color: #0f1221;
+    padding: 70px 2%;
+    text-align: -webkit-center;
+  }
+  .big_text {
+    font-size: 50px;
+}
 }
 </style>

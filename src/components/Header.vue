@@ -1,32 +1,31 @@
 <template>
   <div id="header">
     <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
-            <div class="person_image">
-              <img src="../assets/img/ndeme_yvan.jpg" alt="" />
-            </div>
-          </div>
-          <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
-            <div class="hero__caption">
-              <h1 class="profession">
-               Moi c'est Ndeme Rodrigue.<br />
-                Mobile / Web Développeur
-              </h1>
-              <p class="small_description">Développeur Android (Flutter / Natif) / Web (Vuejs)</p>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
+          <div class="person_image">
+            <img src="../assets/img/ndeme_yvan.jpg" alt="" />
           </div>
         </div>
-     
+        <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
+          <div class="hero__caption">
+            <h1 class="profession">
+              Moi c'est Ndeme Rodrigue.<br />
+              Mobile / Web Développeur
+            </h1>
+            <p class="small_description">
+              Développeur Android (Flutter / Natif) / Web (Vuejs)
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-
 export default {
-   components: {
-  }
+  components: {},
 };
 </script>
 
@@ -60,9 +59,6 @@ export default {
   padding-top: 15px;
 }
 
-
-
-
 span {
   font-weight: 400;
   font-size: 26px;
@@ -83,35 +79,40 @@ hover:active {
   color: #000;
   transition: color 0.3s ease-in, color 0.3s ease-in;
 }
-img{
+img {
   max-height: 300px;
-  
 }
 /* Media query */
 @media only screen and (max-width: 600px) {
-.profession {
-  color: blue-grey;
-  font-weight: 500;
-  font-size: 40px;
-  font-weight: 400;
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-img{
-  max-height: 150px;
-  
-}
+  #header {
+    min-height: 500px;
+    background-color: #4caf50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-#header {
-  min-height: 700px;
-  background-color: #4caf50;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align:center;
-}
+  img {
+    margin-top: 70px;
+    max-height: 120px;
+  }
+  .profession {
+    color: blue-grey;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 40px;
+  }
 
-
+  .small_description[data-v-61dd7a3d] {
+    color: black;
+    font-size: 20px;
+    font-weight: 750;
+    padding-top: 15px;
+  }
 }
 </style>

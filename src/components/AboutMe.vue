@@ -9,20 +9,22 @@
       <p class="description">
         Je m'appelle Ndeme Yvan Rodrigue, je suis un développeur web et mobile
         depuis 3 ans. J'ai fait mes premières pas dans la création d'application
-        mobile en natif (java) en 2018 . <br> Le code est une véritable passion pour
-        moi. J'ai commencé à m'y intéresse très tot déjà au lycée et je suis
-        ravi de vivre de ma passion aujourd'hui. <br><br> C'est ainsi que je me propose
-        de mettre certaines de mes compétences et expériences à votre service,
-        compétences qui sont :<br> - Développement mobile Cross platform avec Flutter :
-        je conçois des applications cross Platform ( qui tourneront sur Android
-        et Ios) grace a framework flutter et le langage Dart .<br> - Développement
-        mobile Android natif : je me propose de vous faires applications android
-        code nativement pour l'OS mobile android grace au langage java ou Kotlin .
-        <br> - Développement web Front-end : je m’adapte facilement aux environnements
-        des projets, aux méthodologies adoptées, aux technos utilisées , je travaille
-        avec Vuejs la plupart du temps.
-        <br>
-   
+        mobile en natif (java) en 2018 . <br />
+        Le code est une véritable passion pour moi. J'ai commencé à m'y
+        intéresse très tot déjà au lycée et je suis ravi de vivre de ma passion
+        aujourd'hui. <br /><br />
+        C'est ainsi que je me propose de mettre certaines de mes compétences et
+        expériences à votre service, compétences qui sont :<br />
+        - Développement mobile Cross platform avec Flutter : je conçois des
+        applications cross Platform ( qui tourneront sur Android et Ios) grace a
+        framework flutter et le langage Dart .<br />
+        - Développement mobile Android natif : je me propose de vous faires
+        applications android code nativement pour l'OS mobile android grace au
+        langage java ou Kotlin . <br />
+        - Développement web Front-end : je m’adapte facilement aux
+        environnements des projets, aux méthodologies adoptées, aux technos
+        utilisées , je travaille avec Vuejs la plupart du temps.
+        <br />
       </p>
       <div class="author_wrap">
         <div class="author_image">
@@ -34,7 +36,11 @@
         </div>
         <div class="author_name">
           <p class="person_name">Ndeme Yvan</p>
-          <p class="person_post">Mobile et Web Développeur</p>
+          <p class="person_post">Mobile et <br> Web Développeur</p>
+           <div class="mobile_display">
+              <p class="post">Mobile et </p>
+               <p class="post">Web Développeur</p>
+           </div>
         </div>
       </div>
     </div>
@@ -119,29 +125,74 @@ export default {};
     font-family: "Karla", sans-serif;
     font-weight: 700;
     line-height: 20px;
-      text-align: -webkit-center;
-
-}
-.big_title {
-  font-size: 30px;
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-align: -webkit-center;
-}
-.description[data-v-6cb1b4f6] {
+    text-align: -webkit-center;
+  }
+  .big_title {
+    font-size: 30px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: -webkit-center;
+  }
+  .description[data-v-6cb1b4f6] {
     font-family: "Karla", sans-serif;
     font-weight: 300;
     color: white;
     font-size: 15px;
-}
+    text-align: justify;
+  }
 
-#about {
+  #about {
     background-color: #4caf50;
-    /* min-height: 890px; */
     justify-content: center;
     align-items: center;
-    padding: 132px 7%;
+    padding: 30px 7%;
+  }
+  .person_post{
+    display: none;
+  }
+  .post{
+     font-family: "Karla", sans-serif;
+  font-weight: 700;
+  line-height: 0px;
+  color: #130f49;
+  }
 }
+
+@media only screen and (max-width: 1024px) {
+  .litle_title[data-v-6cb1b4f6] {
+    margin-top: 50px;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: -webkit-center;
+  }
+  .big_title {
+    font-size: 30px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: -webkit-center;
+  }
+  .description[data-v-6cb1b4f6] {
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  #about {
+    background-color: #4caf50;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 7%;
+  }
+  /* .person_post{
+    display: none;
+  } */
+  .post{
+display: none;
+  }
 }
 </style>
