@@ -36,11 +36,10 @@
         </div>
         <div class="author_name">
           <p class="person_name">Ndeme Yvan</p>
-          <p class="person_post">Mobile et <br> Web Développeur</p>
-           <div class="mobile_display">
-              <p class="post">Mobile et </p>
-               <p class="post">Web Développeur</p>
-           </div>
+          <div class="author_post">
+            <p class="person_post">Mobile</p>
+            <span class="person_post"> /Web Développeur</span>
+          </div>
         </div>
       </div>
     </div>
@@ -148,14 +147,12 @@ export default {};
     align-items: center;
     padding: 30px 7%;
   }
-  .person_post{
-    display: none;
+
+  .person_post span {
+    display: block;
   }
-  .post{
-     font-family: "Karla", sans-serif;
-  font-weight: 700;
-  line-height: 0px;
-  color: #130f49;
+  .author_post {
+    display: flex;
   }
 }
 
@@ -191,8 +188,8 @@ export default {};
   /* .person_post{
     display: none;
   } */
-  .post{
-display: none;
+  .post {
+    display: none;
   }
 }
 </style>

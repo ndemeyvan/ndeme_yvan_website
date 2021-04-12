@@ -62,7 +62,7 @@
 
         <hr class="my-5" />
         <p class="all_right_reserved text-center text-light">
-          &copy; All Rights Reserved {{ date }} . Made with ❤️ by Ndeme Yvan
+         Made with ❤️ by Ndeme Yvan
           Rodrigue
         </p>
       </div>
@@ -150,7 +150,11 @@ export default {
   }
   .big_text {
     font-size: 50px;
-}
+  }
+
+  .desciption {
+    /* text-align: justify; */
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -161,6 +165,9 @@ export default {
   }
   .big_text {
     font-size: 50px;
-}
+  }
+  .desciption {
+    /* text-align: justify; */
+  }
 }
 </style>

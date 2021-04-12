@@ -112,7 +112,7 @@ export default {
   min-height: 500px;
 }
 
-/* .litle_title {
+.litle_title {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
@@ -125,7 +125,7 @@ export default {
   font-size: 64px;
   font-style: normal;
   font-family: "Space Grotesk", sans-serif;
-} */
+}
 
 .list_skylls {
   margin-top: 80px;
@@ -189,7 +189,17 @@ span {
     font-family: "Space Grotesk", sans-serif;
   }
   .skill_description {
-    text-align: -webkit-center;
+    /* text-align: -webkit-center; */
+    text-align: justify;
   }
+  span{
+    font-weight: 600;
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+.card_header {
+   
+    flex-direction: column;
+}
 }
 </style>

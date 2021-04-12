@@ -9,7 +9,7 @@
         <!-- Efarm -->
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">Efarm mobile</h1>
+            <h1 class="big_title ">Efarm mobile</h1>
             <p class="summary_project">
               L'application eFarm.cm est une plateforme mobile innovante pour
               l'achat et la vente de produits exclusivement agricoles.
@@ -33,7 +33,7 @@
         <div class="col-md-6 floraison_image"></div>
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">Floraison app</h1>
+            <h1 class="big_title ">Floraison app</h1>
             <p class="summary_project">
               Comparez, achetez et économisez avec l'application Floraison, le
               1er comparateur de prix et d'offres promotionnelles exclusivement
@@ -52,7 +52,7 @@
               complexes.
             </p>
             <a
-              class="see_more"
+              class="see_more "
               href="https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket"
               target="_blank"
               >VOIR</a
@@ -62,7 +62,7 @@
         <!-- Activa cost app -->
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">Activa Cost app</h1>
+            <h1 class="big_title">Activa Cost app</h1>
             <p class="summary_project">
               L'application eFarm.cm est une plateforme mobile innovante pour
               l'achat et la vente de produits exclusivement agricoles.
@@ -87,7 +87,7 @@
         <div class="col-md-6 b_commerce_image"></div>
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">B commerce tuto</h1>
+            <h1 class="big_title">B commerce tuto</h1>
             <p class="summary_project">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
@@ -110,7 +110,7 @@
 
         <div class="col-md-6 project_summary">
           <div>
-            <h1 class="big_title mb-3">Personal Portfolio</h1>
+            <h1 class="big_title">Personal Portfolio</h1>
             <p class="summary_project">
               Vous voulez m'avoir dans votre poche ? Téléchargez mon portfolio
               sur le PlayStore.
@@ -123,7 +123,7 @@
             </p>
             <a
               class="see_more"
-              href="https://play.google.com/store/apps/details?id=market.floraison.com.floraisonmobilemarket"
+              href="https://play.google.com/store/apps/details?id=com.bee_studio.ndeme_yvan"
               target="_blank"
               >VOIR</a
             >
@@ -296,4 +296,28 @@ export default {
     font-size: 24px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+ .efarm_image {
+    height: 588px;}
+
+.floraison_image {
+    height: 632px;
+}
+.activa_costapp_image{
+  
+    height: 575px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+ 
+.floraison_image[data-v-2b717036] {
+    height: 566px;
+}
+}
+
+
+
+
 </style>
