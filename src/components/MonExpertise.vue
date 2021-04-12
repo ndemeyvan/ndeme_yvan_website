@@ -173,7 +173,7 @@ span {
   margin-top: 70px;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  color: #b4b2c5;
+  color: black;
 }
 .youtube_link {
   text-decoration: none;
