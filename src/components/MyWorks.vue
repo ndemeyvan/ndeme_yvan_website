@@ -313,7 +313,7 @@ export default {
 @media only screen and (max-width: 1024px) {
  
 .floraison_image[data-v-2b717036] {
-    height: 566px;
+    height: 632px;
 }
 }
 

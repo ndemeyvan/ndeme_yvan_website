@@ -189,7 +189,6 @@ span {
     font-family: "Space Grotesk", sans-serif;
   }
   .skill_description {
-    /* text-align: -webkit-center; */
     text-align: justify;
   }
   span{
@@ -198,8 +197,18 @@ span {
     font-size: 15px;
 }
 .card_header {
-   
     flex-direction: column;
 }
+}
+
+@media only screen and (max-width: 7680px) {
+.card_header {
+    flex-direction: column;
+}
+ .skill_description {
+    text-align: justify;
+  }
+ 
+
 }
 </style>

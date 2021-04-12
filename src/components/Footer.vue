@@ -2,7 +2,7 @@
   <div id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12  col-sm-12">
           <div class="author_wrap right_side">
             <div class="author_name">
               <p class="person_name text-light">Ndeme Yvan</p>
@@ -17,7 +17,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12  col-sm-12 ">
           <div class="left_side">
             <h1 class="text-light big_text">Lets Talk!</h1>
             <p class="text-light desciption">
@@ -62,8 +62,7 @@
 
         <hr class="my-5" />
         <p class="all_right_reserved text-center text-light">
-         Made with ❤️ by Ndeme Yvan
-          Rodrigue
+         Made with ❤️ by Ndeme Yvan Rodrigue
         </p>
       </div>
     </div>
@@ -152,9 +151,7 @@ export default {
     font-size: 50px;
   }
 
-  .desciption {
-    /* text-align: justify; */
-  }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -166,8 +163,6 @@ export default {
   .big_text {
     font-size: 50px;
   }
-  .desciption {
-    /* text-align: justify; */
-  }
+
 }
 </style>

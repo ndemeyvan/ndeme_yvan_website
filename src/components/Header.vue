@@ -1,13 +1,13 @@
 <template>
   <div id="header">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
+      <div class="row align-items-center text-center">
+        <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
           <div class="person_image">
             <img src="../assets/img/ndeme_yvan.jpg" alt="" />
           </div>
         </div>
-        <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
+        <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12">
           <div class="hero__caption">
             <h1 class="profession">
               Moi c'est Ndeme Rodrigue.<br />
@@ -114,5 +114,9 @@ img {
     font-weight: 750;
     padding-top: 15px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  
 }
 </style>

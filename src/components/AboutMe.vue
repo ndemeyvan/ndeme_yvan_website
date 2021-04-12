@@ -118,6 +118,16 @@ export default {};
   display: flex;
   margin-top: 77px;
 }
+
+/* 
+@media only screen and (max-width: 320px) {
+
+  .author_post{
+    display: block;
+  }
+
+} */
+
 @media only screen and (max-width: 600px) {
   .litle_title[data-v-6cb1b4f6] {
     margin-top: 50px;
@@ -156,6 +166,14 @@ export default {};
   }
 }
 
+@media only screen and (max-width: 768px) {
+
+   .author_post {
+    display: flex;
+  }
+
+}
+
 @media only screen and (max-width: 1024px) {
   .litle_title[data-v-6cb1b4f6] {
     margin-top: 50px;
@@ -185,9 +203,9 @@ export default {};
     align-items: center;
     padding: 30px 7%;
   }
-  /* .person_post{
-    display: none;
-  } */
+   .author_post {
+    display: flex;
+  }
   .post {
     display: none;
   }
